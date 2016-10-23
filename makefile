@@ -4,7 +4,10 @@ CPPFLAGS=-c -std=c++11 -Os -Wall -g3 -ggdb
 SOURCES=bitmap.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 
-all: png2raw raw2png npl2rsd clean
+all: png2raw raw2png npl2rsd clean imgbin2raw
+
+imgbin2raw: $(OBJECTS) imgbin2raw.o
+	$(CC) imgbin2raw.o -o $@
 
 png2raw: $(OBJECTS) png2raw.o
 	$(CC) $(LDFLAGS) png2raw.o $(OBJECTS) -o $@
