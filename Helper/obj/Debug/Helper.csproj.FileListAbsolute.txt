@@ -1,8 +1,0 @@
-C:\Users\Philip\Documents\Visual Studio 11\Projects\Helper\Helper\bin\Debug\Helper.exe.config
-C:\Users\Philip\Documents\Visual Studio 11\Projects\Helper\Helper\bin\Debug\Helper.exe
-C:\Users\Philip\Documents\Visual Studio 11\Projects\Helper\Helper\bin\Debug\Helper.pdb
-C:\Users\Philip\Documents\Visual Studio 11\Projects\Helper\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
-C:\Users\Philip\Documents\Visual Studio 11\Projects\Helper\Helper\obj\Debug\Helper.exe
-C:\Users\Philip\Documents\Visual Studio 11\Projects\Helper\Helper\obj\Debug\Helper.pdb
-C:\Users\Philip\Desktop\perm2-helper\Helper\bin\Debug\Helper.exe.config
-C:\Users\Philip\Desktop\perm2-helper\Helper\obj\Debug\Helper.pdb
