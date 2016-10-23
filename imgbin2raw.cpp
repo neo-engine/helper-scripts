@@ -14,25 +14,25 @@ int main( int p_argc, char* p_argv[ ] ) {
         fclose( f );
 
         int cnt = 0;
-        for( int i = 0; i < 64; ++i ) {
-            for( int j = 0; j < 64 / 8; ++j )
-                buffer2[ ( 64 / 8 ) * i + j ] = buffer[ cnt++ ];
-            for( int j = 0; j < 32 / 8; ++j )
-                buffer2[ ( 64 * 64 / 8 ) + ( 32 / 8 ) * i + j ] = buffer[ cnt++ ];
+        for( int i = 0; i < 64 / 8; ++i ) {
+            for( int j = 0; j < 64; ++j )
+                buffer2[ ( 64 ) * i + j ] = buffer[ cnt++ ];
+            for( int j = 0; j < 32; ++j )
+                buffer2[ ( 64 * 64 / 8 ) + ( 32 ) * i + j ] = buffer[ cnt++ ];
         }
         int base = cnt;
-        for( int i = 0; i < 32; ++i ) {
-            for( int j = 0; j < 64 / 8; ++j )
-                buffer2[ base + ( 64 / 8 ) * i + j ] = buffer[ cnt++ ];
-            for( int j = 0; j < 32 / 8; ++j )
-                buffer2[ base + ( 32 * 64 / 8 ) + ( 32 / 8 ) * i + j ] = buffer[ cnt++ ];
+        for( int i = 0; i < 32 / 8; ++i ) {
+            for( int j = 0; j < 64; ++j )
+                buffer2[ base + ( 64 ) * i + j ] = buffer[ cnt++ ];
+            for( int j = 0; j < 32; ++j )
+                buffer2[ base + ( 32 * 64 / 8 ) + ( 32 ) * i + j ] = buffer[ cnt++ ];
         }
 
         // Don't think about the following code.
         // And no, those kittens over there could not have survived.
         char* ed = p_argv[ i ] + strlen( p_argv[ i ] );
-        while( *(--ed) != '.' );
-        while( *(--ed) != '.' );
+        while( *( --ed ) != '.' );
+        while( *( --ed ) != '.' );
         strcpy( ed, ".raw" );
         f = fopen( p_argv[ i ], "w" );
         fwrite( buffer2, sizeof( unsigned int ), 96 * 96 / 8, f );
