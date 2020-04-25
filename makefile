@@ -1,6 +1,6 @@
 CC=g++
 LDFLAGS=-lpng
-CPPFLAGS=-c -std=c++11 -Os -Wall -g3 -ggdb
+CPPFLAGS=-c -std=c++17 -O2 -Wall
 SOURCES=bitmap.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 
@@ -11,6 +11,9 @@ imgbin2raw: $(OBJECTS) imgbin2raw.o
 
 png2raw: $(OBJECTS) png2raw.o
 	$(CC) $(LDFLAGS) png2raw.o $(OBJECTS) -o $@
+
+pkmnicon2rsd: $(OBJECTS) pkmnicon2rsd.o
+	$(CC) $(LDFLAGS) pkmnicon2rsd.o $(OBJECTS) -o $@
 
 raw2png: $(OBJECTS) raw2png.o
 	$(CC) $(LDFLAGS) raw2png.o $(OBJECTS) -o $@

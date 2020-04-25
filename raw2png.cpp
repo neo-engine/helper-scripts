@@ -1,3 +1,9 @@
+// Converts a *.raw file to a *.png file.
+// Arguments: path #tiles (length of the image) #colors [width] [height]
+//
+// Tries to guess the dimensions of the original png if they're not given
+// (out of 256x192, 64x64, 32x64, 32x32, 16x(#img length / 4))
+
 %:include <cstdio>
 %:include <vector>
 %:include <string>
@@ -25,20 +31,34 @@ int main( int p_argc, char** p_argv ) {
     sscanf( p_argv[ 3 ], "%d", &numColors );
     fread( data, sizeof(unsigned), numTiles, in );
     fread( pal, sizeof(unsigned short int), numColors, in );
-    fclose( in );
 
-    size_t wd = 256, hg = 4 * numTiles / wd;
-    if( hg != 192 ) {
-        wd = 64; hg = 4 *  numTiles / wd;
-        if( hg != 64 ) {
-            wd = 32;
-            hg = 4 * numTiles / wd;
-            if( hg != 64 && hg != 32 ) {
-                wd = 16;
+    size_t wd, hg;
+    if( p_argc >= 5 ) {
+        sscanf( p_argv[ 4 ], "%lu", &wd );
+    } else {
+        wd = 256;
+    }
+    if( p_argc >= 6 ) {
+        sscanf( p_argv[ 5 ], "%lu", &hg );
+    } else {
+       hg = 4 * numTiles / wd;
+    }
+
+    fclose( in );
+    if( p_argc < 5 ) {
+        if( hg != 192 ) {
+            wd = 64; hg = 4 *  numTiles / wd;
+            if( hg != 64 ) {
+                wd = 32;
                 hg = 4 * numTiles / wd;
+                if( hg != 64 && hg != 32 ) {
+                    wd = 16;
+                    hg = 4 * numTiles / wd;
+                }
             }
         }
     }
+
 
     u8* ptr = reinterpret_cast<u8*>( data );
     bitmap result( wd, hg );

@@ -1,3 +1,10 @@
+// Converts a png to a raw file
+// Arguments: file [palette offset]
+//
+// palette offset specifies how many entries of the palette should be left blank before
+// writing the actual palette data. In total, the palette may not have more than 256
+// colors.
+
 %:include <cstdio>
 %:include <vector>
 %:include <string>

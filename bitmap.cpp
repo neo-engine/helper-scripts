@@ -92,6 +92,12 @@ bitmap::bitmap( const char* p_path ) {
 
     if( clrType == PNG_COLOR_TYPE_PALETTE ) png_set_strip_16( pngPtr );
 
+    if( clrType == PNG_COLOR_TYPE_GRAY && bitDpt < 8 )
+        png_set_expand_gray_1_2_4_to_8( pngPtr );
+
+    if( png_get_valid( pngPtr, infoPtr, PNG_INFO_tRNS ) )
+        png_set_tRNS_to_alpha( pngPtr );
+
     if( clrType == PNG_COLOR_TYPE_RGB ||
             clrType == PNG_COLOR_TYPE_GRAY ||
             clrType == PNG_COLOR_TYPE_PALETTE )
@@ -118,7 +124,10 @@ bitmap::bitmap( const char* p_path ) {
         png_bytep row = row_pointers[ y ];
         for( size_t x = 0; x < m_width; x++ ) {
             png_bytep px = &( row[ x * 4 ] );
-            m_pixels[ x ][ y ] = { px[ 0 ], px[ 1 ], px[ 2 ] };
+            if( px[ 3 ] )
+                m_pixels[ x ][ y ] = { px[ 0 ], px[ 1 ], px[ 2 ] };
+            else
+                m_pixels[ x ][ y ] = { 0, 0, 0 };
         }
     }
 }
