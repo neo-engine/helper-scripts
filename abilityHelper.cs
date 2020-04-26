@@ -223,7 +223,7 @@ namespace Perm2Helper
             new ability( "Klon", "Das PKMN kann sich weder entwickeln, noch kann es TM oder VM erlernen.", 1 ),
             new ability( "Unantastbar", "Immun gegen alle Attacken, Wetter und Items.", 1 ),
             new ability( "Fischauge", "Erhöht Genauigkeit nach direktem Treffer.", 1 ),
-            new ability( "Gleichheit", "Erhöht Effektivität eigener Attacken, bei Gegnern selbem Typs.", 1 ),
+            new ability( "Gleichheit", "Erhöht Effektivität eigener Attacken, bei Gegnern selben Typs.", 1 ),
             new ability( "Schillerschuppe", "Macht Begegnungen mit schillernden PKMN wahrscheinlicher.", 8 ),
             new ability( "Nebelwand", "Betritt das PKMN den Kampf, zieht starker Nebel auf.", 16 ),
             new ability( "Einschüchterer", "Betritt das PKMN den Kampf, tauscht der Gegner sein PKMN aus.", 1 ),

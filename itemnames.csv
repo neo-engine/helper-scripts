@@ -1,0 +1,1279 @@
+0000,unknown,None,Nichts
+0001,pokeball,Master Ball,Meisterball
+0002,pokeball,Ultra Ball,Hyperball
+0003,pokeball,Great Ball,Superball
+0004,pokeball,Poké Ball,Pokéball
+0005,pokeball,Safari Ball,Safariball
+0006,pokeball,Net Ball,Netzball
+0007,pokeball,Dive Ball,Tauchball
+0008,pokeball,Nest Ball,Nestball
+0009,pokeball,Repeat Ball,Wiederball
+0010,pokeball,Timer Ball,Timerball
+0011,pokeball,Luxury Ball,Luxusball
+0012,pokeball,Premier Ball,Premierball
+0013,pokeball,Dusk Ball,Finsterball
+0014,pokeball,Heal Ball,Heilball
+0015,pokeball,Quick Ball,Flottball
+0016,pokeball,Cherish Ball,Jubelball
+0017,medicine,Potion,Trank
+0018,medicine,Antidote,Gegengift
+0019,medicine,Burn Heal,Feuerheiler
+0020,medicine,Ice Heal,Eisheiler
+0021,medicine,Awakening,Aufwecker
+0022,medicine,Paralyze Heal,Para-Heiler
+0023,medicine,Full Restore,Top-Genesung
+0024,medicine,Max Potion,Top-Trank
+0025,medicine,Hyper Potion,Hypertrank
+0026,medicine,Super Potion,Supertrank
+0027,medicine,Full Heal,Hyperheiler
+0028,medicine,Revive,Beleber
+0029,medicine,Max Revive,Top-Beleber
+0030,medicine,Fresh Water,Tafelwasser
+0031,medicine,Soda Pop,Sprudel
+0032,medicine,Lemonade,Limonade
+0033,medicine,Moomoo Milk,Kuhmuh-Milch
+0034,medicine,Energy Powder,Energiestaub
+0035,medicine,Energy Root,Kraftwurzel
+0036,medicine,Heal Powder,Heilpuder
+0037,medicine,Revival Herb,Vitalkraut
+0038,medicine,Ether,Äther
+0039,medicine,Max Ether,Top-Äther
+0040,medicine,Elixir,Elixier
+0041,medicine,Max Elixir,Top-Elixier
+0042,medicine,Lava Cookie,Lavakeks
+0043,medicine,Berry Juice,Beerensaft
+0044,medicine,Sacred Ash,Zauberasche
+0045,medicine,HP Up,KP-Plus
+0046,medicine,Protein,Protein
+0047,medicine,Iron,Eisen
+0048,medicine,Carbos,Carbon
+0049,medicine,Calcium,Kalzium
+0050,medicine,Rare Candy,Sonderbonbon
+0051,medicine,PP Up,AP-Plus
+0052,medicine,Zinc,Zink
+0053,medicine,PP Max,AP-Top
+0054,medicine,Old Gateau,Spezialität
+0055,battleItem,Guard Spec.,Megablock
+0056,battleItem,Dire Hit,Angriffplus
+0057,battleItem,X Attack,X-Angriff
+0058,battleItem,X Defense,X-Abwehr
+0059,battleItem,X Speed,X-Tempo
+0060,battleItem,X Accuracy,X-Treffer
+0061,battleItem,X Sp. Atk,X-Spezial
+0062,battleItem,X Sp. Def,X-SpezialVer
+0063,battleItem,Poké Doll,Pokepuppe
+0064,battleItem,Fluffy Tail,Eneco-Rute
+0065,battleItem,Blue Flute,Blaue Flöte
+0066,battleItem,Yellow Flute,Gelbe Flöte
+0067,battleItem,Red Flute,Rote Flöte
+0068,battleItem,Black Flute,Schw. Flöte
+0069,battleItem,White Flute,Weiße Flöte
+0070,collectibles,Shoal Salt,Küstensalz
+0071,collectibles,Shoal Shell,Küstenschale
+0072,collectibles,Red Shard,Purpurstück
+0073,collectibles,Blue Shard,Indigostück
+0074,collectibles,Yellow Shard,Gelbstück
+0075,collectibles,Green Shard,Grünstück
+0076,usables,Super Repel,Superschutz
+0077,usables,Max Repel,Top-Schutz
+0078,usables,Escape Rope,Flucktseil
+0079,usables,Repel,Schutz
+0080,usables,Sun Stone,Sonnenstein
+0081,usables,Moon Stone,Mondstein
+0082,usables,Fire Stone,Feuerstein
+0083,usables,Thunder Stone,Donnerstein
+0084,usables,Water Stone,Wasserstein
+0085,usables,Leaf Stone,Blattstein
+0086,collectibles,Tiny Mushroom,Minipilz
+0087,collectibles,Big Mushroom,Riesenpilz
+0088,collectibles,Pearl,Perle
+0089,collectibles,Big Pearl,Riesenperle
+0090,collectibles,Stardust,Sternenstaub
+0091,collectibles,Star Piece,Sternenstück
+0092,collectibles,Nugget,Nugget
+0093,collectibles,Heart Scale,Herzschuppe
+0094,usables,Honey,Honig
+0095,usables,Growth Mulch,Wachsmulch
+0096,usables,Damp Mulch,Feuchtmulch
+0097,usables,Stable Mulch,Stabilmulch
+0098,usables,Gooey Mulch,Neumulch
+0099,collectibles,Root Fossil,Wurzelfossiel
+0100,collectibles,Claw Fossil,Klauenfossil
+0101,collectibles,Helix Fossil,Helixfossil
+0102,collectibles,Dome Fossil,Domfossiel
+0103,collectibles,Old Amber,Albernstein
+0104,collectibles,Armor Fossil,Panzerfossiel
+0105,collectibles,Skull Fossil,Kopffossiel
+0106,hold,Rare Bone,Steinknochen
+0107,usables,Shiny Stone,Leuchtstein
+0108,usables,Dusk Stone,Finsterstein
+0109,usables,Dawn Stone,Funkelstein
+0110,hold,Oval Stone,Ovaler Stein
+0111,collectibles,Odd Keystone,Spiritkern
+0112,hold,Griseous Orb,Platinum-Orb
+0113,keyItems,Tea,Tee
+0114,keyItems,MysticTicket,Geheimticket
+0115,keyItems,Autograph,Autogramm
+0116,hold,Douse Drive,Aquamodul
+0117,hold,Shock Drive,Blitzmodul
+0118,hold,Burn Drive,Flammenmodul
+0119,hold,Chill Drive,Gefriermodul
+0120,used,???,???
+0121,used,???,???
+0122,used,???,???
+0123,used,???,???
+0124,used,???,???
+0125,used,???,???
+0126,used,???,???
+0127,used,???,???
+0128,used,???,???
+0129,keyItems,Bike Voucher,Rad-Coupon
+0130,keyItems,Fame Checker,Ruhmesdatei
+0131,keyItems,Berry Pouch,Beerentüte
+0132,keyItems,Teachy TV,Lehrkanal
+0133,keyItems,Powder Jar,Puderdöschen
+0134,medicine,Sweet Heart,Herzkonfekt
+0135,hold,Adamant Orb,Adamant-Orb
+0136,hold,Lustrous Orb,Weiß-Orb
+0137,used,???,???
+0138,used,???,???
+0139,used,???,???
+0140,used,???,???
+0141,used,???,???
+0142,used,???,???
+0143,used,???,???
+0144,used,???,???
+0145,used,???,???
+0146,used,???,???
+0147,used,???,???
+0148,used,???,???
+0149,berry,Cheri Berry,Amrenabeere
+0150,berry,Chesto Berry,Maronbeere
+0151,berry,Pecha Berry,Pirsifbeere
+0152,berry,Rawst Berry,Fragiabeere
+0153,berry,Aspear Berry,Wilbirbeere
+0154,berry,Leppa Berry,Jonagobeere
+0155,berry,Oran Berry,Sinelbeere
+0156,berry,Persim Berry,Persimbeere
+0157,berry,Lum Berry,Prunusbeere
+0158,berry,Sitrus Berry,Tsitrubeere
+0159,berry,Figy Berry,Giefebeere
+0160,berry,Wiki Berry,Wikibeere
+0161,berry,Mago Berry,Magobeere
+0162,berry,Aguav Berry,Gauvebeere
+0163,berry,Iapapa Berry,Yapabeere
+0164,berry,Razz Berry,Himmihbeere
+0165,berry,Bluk Berry,Morbbeere
+0166,berry,Nanab Berry,Nanabbeere
+0167,berry,Wepear Berry,Nirbebeere
+0168,berry,Pinap Berry,Sananabeere
+0169,berry,Pomeg Berry,Granabeere
+0170,berry,Kelpsy Berry,Setangbeere
+0171,berry,Qualot Berry,Qualotbeere
+0172,berry,Hondew Berry,Honmelbeere
+0173,berry,Grepa Berry,Labrusbeere
+0174,berry,Tamato Berry,Tamotbeere
+0175,berry,Cornn Berry,Saimbeere
+0176,berry,Magost Berry,Magostbeere
+0177,berry,Rabuta Berry,Rabutabeere
+0178,berry,Nomel Berry,Tronzibeere
+0179,berry,Spelon Berry,Kiwanbeere
+0180,berry,Pamtre Berry,Pallmbeere
+0181,berry,Watmel Berry,Wasmelbeere
+0182,berry,Durin Berry,Durinbeere
+0183,berry,Belue Berry,Myrtilbeere
+0184,berry,Occa Berry,Koakobeere
+0185,berry,Passho Berry,Foepasbeere
+0186,berry,Wacan Berry,Kerzalbeere
+0187,berry,Rindo Berry,Grindobeere
+0188,berry,Yache Berry,Kiroyabeere
+0189,berry,Chople Berry,Rospelbeere
+0190,berry,Kebia Berry,Grarzbeere
+0191,berry,Shuca Berry,Schukebeere
+0192,berry,Coba Berry,Kobabeere
+0193,berry,Payapa Berry,Pyapabeere
+0194,berry,Tanga Berry,Tanigabeere
+0195,berry,Charti Berry,Chiaribeere
+0196,berry,Kasib Berry,Zitarzbeere
+0197,berry,Haban Berry,Terirobeere
+0198,berry,Colbur Berry,Burleobeere
+0199,berry,Babiri Berry,Babiribeere
+0200,berry,Chilan Berry,Latchibeerel
+0201,berry,Liechi Berry,Lydzibeere
+0202,berry,Ganlon Berry,Linganbeere
+0203,berry,Salac Berry,Salkabeere
+0204,berry,Petaya Berry,Tahaybeere
+0205,berry,Apicot Berry,Apikobeere
+0206,berry,Lansat Berry,Lansatbeere
+0207,berry,Starf Berry,Krambobeere
+0208,berry,Enigma Berry,Enigmabeere
+0209,berry,Micle Berry,Wunfrubeere
+0210,berry,Custap Berry,Eipfelbeere
+0211,berry,Jaboca Berry,Jabocabeere
+0212,berry,Rowap Berry,Roselbeere
+0213,hold,Bright Powder,Blendpuder
+0214,hold,White Herb,Schlohkraut
+0215,hold,Macho Brace,Machoband
+0216,keyItems,Exp. Share,EP-Teiler
+0217,hold,Quick Claw,Flinkklaue
+0218,hold,Soothe Bell,Sanftglocke
+0219,hold,Mental Herb,Mentalkraut
+0220,hold,Choice Band,Wahlband
+0221,hold,King's Rock,King-Stein
+0222,hold,Silver Powder,Silberstaub
+0223,hold,Amulet Coin,Münzamulett
+0224,hold,Cleanse Tag,Schutzband
+0225,hold,Soul Dew,Seelentau
+0226,hold,Deep Sea Tooth,Abysszahn
+0227,hold,Deep Sea Scale,Abyssplatte
+0228,hold,Smoke Ball,Rauchball
+0229,hold,Everstone,Ewigstein
+0230,hold,Focus Band,Fokus-Band
+0231,hold,Lucky Egg,Gücks-Ei
+0232,hold,Scope Lens,Scope-Linse
+0233,hold,Metal Coat,Metallmantel
+0234,hold,Leftovers,Überreste
+0235,hold,Dragon Scale,Drachenhaut
+0236,hold,Light Ball,Kugelblitz
+0237,hold,Soft Sand,Pudersand
+0238,hold,Hard Stone,Granitstein
+0239,hold,Miracle Seed,Wundersaat
+0240,hold,Black Glasses,Schattenglas
+0241,hold,Black Belt,Schwarzgurt
+0242,hold,Magnet,Magnet
+0243,hold,Mystic Water,Zauberwasser
+0244,hold,Sharp Beak,Hackattack
+0245,hold,Poison Barb,Giftstich
+0246,hold,Never-Melt Ice,Ewiges Eis
+0247,hold,Spell Tag,Bannsticker
+0248,hold,Twisted Spoon,Krummlöffel
+0249,hold,Charcoal,Holzkohle
+0250,hold,Dragon Fang,Drachenzahn
+0251,hold,Silk Scarf,Seidenschal
+0252,hold,Upgrade,Up-Grade
+0253,hold,Shell Bell,Seegesang
+0254,hold,Sea Incense,Seerauch
+0255,hold,Lax Incense,Laxrauch
+0256,hold,Lucky Punch,Lucky-Punch
+0257,hold,Metal Powder,Metallstaub
+0258,hold,Thick Club,Kampfknochen
+0259,hold,Leek,Lauchstange
+0260,hold,Red Scarf,Roter Schal
+0261,hold,Blue Scarf,Blauer Schal
+0262,hold,Pink Scarf,Rosa Schal
+0263,hold,Green Scarf,Grüner Schal
+0264,hold,Yellow Scarf,Gelber Schal
+0265,hold,Wide Lens,Großlinse
+0266,hold,Muscle Band,Muskelband
+0267,hold,Wise Glasses,Schlauglas
+0268,hold,Expert Belt,Expertengurt
+0269,hold,Light Clay,Lichtlehm
+0270,hold,Life Orb,Leben-Orb
+0271,hold,Power Herb,Energiekraut
+0272,hold,Toxic Orb,Toxik-Orb
+0273,hold,Flame Orb,Heiß-Orb
+0274,hold,Quick Powder,Flottstaub
+0275,hold,Focus Sash,Fokusgurt
+0276,hold,Zoom Lens,Zoom-Linse
+0277,hold,Metronome,Metronom
+0278,hold,Iron Ball,Eisenkugel
+0279,hold,Lagging Tail,Schwerschw.
+0280,hold,Destiny Knot,Fatumknoten
+0281,hold,Black Sludge,Giftschleim
+0282,hold,Icy Rock,Eisbrocken
+0283,hold,Smooth Rock,Glattbrocken
+0284,hold,Heat Rock,Heißbrocken
+0285,hold,Damp Rock,Nassbrocken
+0286,hold,Grip Claw,Griffklaue
+0287,hold,Choice Scarf,Wahlschal
+0288,hold,Sticky Barb,Klettdorn
+0289,hold,Power Bracer,Machtreif
+0290,hold,Power Belt,Machtgurt
+0291,hold,Power Lens,Machtlinse
+0292,hold,Power Band,Machtband
+0293,hold,Power Anklet,Machtkette
+0294,hold,Power Weight,Machtgewicht
+0295,hold,Shed Shell,Wechselhülle
+0296,hold,Big Root,Großwurzel
+0297,hold,Choice Specs,Wahlglas
+0298,hold,Flame Plate,Feuertafel
+0299,hold,Splash Plate,Wassertafel
+0300,hold,Zap Plate,Blitztafel
+0301,hold,Meadow Plate,Wiesentafel
+0302,hold,Icicle Plate,Frosttafel
+0303,hold,Fist Plate,Fausttafel
+0304,hold,Toxic Plate,Gifttafel
+0305,hold,Earth Plate,Erdtafel
+0306,hold,Sky Plate,Wolkentafel
+0307,hold,Mind Plate,Hirntafel
+0308,hold,Insect Plate,Käfertafel
+0309,hold,Stone Plate,Steintafel
+0310,hold,Spooky Plate,Spuktafel
+0311,hold,Draco Plate,Dracotafel
+0312,hold,Dread Plate,Furchttafel
+0313,hold,Iron Plate,Eisentafel
+0314,hold,Odd Incense,Schrägrauch
+0315,hold,Rock Incense,Steinrauch
+0316,hold,Full Incense,Lahmrauch
+0317,hold,Wave Incense,Wellenrauch
+0318,hold,Rose Incense,Rosenrauch
+0319,hold,Luck Incense,Glücksrauch
+0320,hold,Pure Incense,Scheuchrauch
+0321,hold,Protector,Schützer
+0322,hold,Electirizer,Stromisierer
+0323,hold,Magmarizer,Magmaisierer
+0324,hold,Dubious Disc,Dubiosdisc
+0325,hold,Reaper Cloth,Düsterumhang
+0326,hold,Razor Claw,Scharfklaue
+0327,hold,Razor Fang,Scharfzahn
+0328,TM/HM,TM01,TM01
+0329,TM/HM,TM02,TM02
+0330,TM/HM,TM03,TM03
+0331,TM/HM,TM04,TM04
+0332,TM/HM,TM05,TM05
+0333,TM/HM,TM06,TM06
+0334,TM/HM,TM07,TM07
+0335,TM/HM,TM08,TM08
+0336,TM/HM,TM09,TM09
+0337,TM/HM,TM10,TM10
+0338,TM/HM,TM11,TM11
+0339,TM/HM,TM12,TM12
+0340,TM/HM,TM13,TM13
+0341,TM/HM,TM14,TM14
+0342,TM/HM,TM15,TM15
+0343,TM/HM,TM16,TM16
+0344,TM/HM,TM17,TM17
+0345,TM/HM,TM18,TM18
+0346,TM/HM,TM19,TM19
+0347,TM/HM,TM20,TM20
+0348,TM/HM,TM21,TM21
+0349,TM/HM,TM22,TM22
+0350,TM/HM,TM23,TM23
+0351,TM/HM,TM24,TM24
+0352,TM/HM,TM25,TM25
+0353,TM/HM,TM26,TM26
+0354,TM/HM,TM27,TM27
+0355,TM/HM,TM28,TM28
+0356,TM/HM,TM29,TM29
+0357,TM/HM,TM30,TM30
+0358,TM/HM,TM31,TM31
+0359,TM/HM,TM32,TM32
+0360,TM/HM,TM33,TM33
+0361,TM/HM,TM34,TM34
+0362,TM/HM,TM35,TM35
+0363,TM/HM,TM36,TM36
+0364,TM/HM,TM37,TM37
+0365,TM/HM,TM38,TM38
+0366,TM/HM,TM39,TM39
+0367,TM/HM,TM40,TM30
+0368,TM/HM,TM41,TM41
+0369,TM/HM,TM42,TM42
+0370,TM/HM,TM43,TM43
+0371,TM/HM,TM44,TM44
+0372,TM/HM,TM45,TM45
+0373,TM/HM,TM46,TM46
+0374,TM/HM,TM47,TM47
+0375,TM/HM,TM48,TM48
+0376,TM/HM,TM49,TM49
+0377,TM/HM,TM50,TM50
+0378,TM/HM,TM51,TM51
+0379,TM/HM,TM52,TM52
+0380,TM/HM,TM53,TM53
+0381,TM/HM,TM54,TM54
+0382,TM/HM,TM55,TM55
+0383,TM/HM,TM56,TM56
+0384,TM/HM,TM57,TM57
+0385,TM/HM,TM58,TM58
+0386,TM/HM,TM59,TM59
+0387,TM/HM,TM60,TM60
+0388,TM/HM,TM61,TM61
+0389,TM/HM,TM62,TM62
+0390,TM/HM,TM63,TM63
+0391,TM/HM,TM64,TM64
+0392,TM/HM,TM65,TM65
+0393,TM/HM,TM66,TM66
+0394,TM/HM,TM67,TM67
+0395,TM/HM,TM68,TM68
+0396,TM/HM,TM69,TM69
+0397,TM/HM,TM70,TM70
+0398,TM/HM,TM71,TM71
+0399,TM/HM,TM72,TM72
+0400,TM/HM,TM73,TM73
+0401,TM/HM,TM74,TM74
+0402,TM/HM,TM75,TM75
+0403,TM/HM,TM76,TM76
+0404,TM/HM,TM77,TM77
+0405,TM/HM,TM78,TM78
+0406,TM/HM,TM79,TM79
+0407,TM/HM,TM80,TM80
+0408,TM/HM,TM81,TM81
+0409,TM/HM,TM82,TM82
+0410,TM/HM,TM83,TM83
+0411,TM/HM,TM84,TM84
+0412,TM/HM,TM85,TM85
+0413,TM/HM,TM86,TM86
+0414,TM/HM,TM87,TM87
+0415,TM/HM,TM88,TM88
+0416,TM/HM,TM89,TM89
+0417,TM/HM,TM90,TM90
+0418,TM/HM,TM91,TM91
+0419,TM/HM,TM92,TM92
+0420,TM/HM,HM01,VM01
+0421,TM/HM,HM02,VM02
+0422,TM/HM,HM03,VM03
+0423,TM/HM,HM04,VM04
+0424,TM/HM,HM05,VM05
+0425,TM/HM,HM06,VM06
+0426,TM/HM,HM07,VM07
+0427,TM/HM,HM08,VM08
+0428,keyItems,Explorer Kit,Forschersack
+0429,keyItems,Loot Sack,Beutesack
+0430,keyItems,Rule Book,Regelbuch
+0431,keyItems,Poké Radar,Pokéradar
+0432,keyItems,Point Card,Punktekarte
+0433,keyItems,Journal,Tagebuch
+0434,keyItems,Seal Case,Stickerkoffer
+0435,keyItems,Fashion Case,Modekoffer
+0436,keyItems,Seal Bag,Stickertüte
+0437,keyItems,Pal Pad,Adressbuch
+0438,keyItems,Works Key,K-Schlüssel
+0439,keyItems,Old Charm,Talisman
+0440,keyItems,Galactic Key,G-Schlüssel
+0441,keyItems,Red Chain,Rote Kette
+0442,keyItems,Town Map,Karte
+0443,keyItems,Vs. Seeker,Kampffahnder
+0444,keyItems,Coin Case,Münskorb
+0445,keyItems,Old Rod,Angel
+0446,keyItems,Good Rod,Profiangel
+0447,keyItems,Super Rod,Superangel
+0448,keyItems,Sprayduck,Entonkanne
+0449,keyItems,Poffin Case,Knurspbox
+0450,keyItems,Bike,Fahrrad
+0451,keyItems,Suite Key,B-Schlüssel
+0452,keyItems,Oak's Letter,Eichs Brief
+0453,keyItems,Lunar Wing,Lunarfeder
+0454,keyItems,Member Card,Mitgliedskarte
+0455,keyItems,Azure Flute,Azurflöte
+0456,keyItems,S.S. Ticket,Bootsticket
+0457,keyItems,Contest Pass,Wettbewerbskarte
+0458,keyItems,Magma Stone,Magmastein
+0459,keyItems,Parcel,Paket
+0460,keyItems,Coupon 1,Kupon 1
+0461,keyItems,Coupon 2,Kupon 2
+0462,keyItems,Coupon 3,Kupon 3
+0463,keyItems,Storage Key,L-Schlüssel
+0464,keyItems,Secret Potion,Geheimtrank
+0465,keyItems,Vs. Recorder,Kampfkamera
+0466,keyItems,Gracidea,Gracidea
+0467,keyItems,Secret Key,?-Öffner
+0468,keyItems,Apricorn Box,Aprikokobox
+0469,keyItems,Unown Report,Icognitoheft
+0470,keyItems,Berry Pots,Pflanzset
+0471,keyItems,Dowsing Machine,Itemradar
+0472,keyItems,Blue Card,Blaue Karte
+0473,keyItems,Slowpoke Tail,Flegmon-Rute
+0474,keyItems,Clear Bell,Klarglocke
+0475,keyItems,Card Key,Türöffner
+0476,keyItems,Basement Key,Kelleröffner
+0477,keyItems,Squirt Bottle,Schiggykanne
+0478,keyItems,Red Scale,Rote Haut
+0479,keyItems,Lost Item,Fundsache
+0480,keyItems,Pass,Fahrschein
+0481,keyItems,Machine Part,Spule
+0482,keyItems,Silver Wing,Silberflügel
+0483,keyItems,Rainbow Wing,Buntschwinge
+0484,keyItems,Mystery Egg,Rätsel-Ei
+0485,Apricorn,Red Apricorn,Aprikoko Rot
+0486,Apricorn,Blue Apricorn,Aprikoko Blu
+0487,Apricorn,Yellow Apricorn,Aprikoko Glb
+0488,Apricorn,Green Apricorn,Aprikoko Grn
+0489,Apricorn,Pink Apricorn,Aprikoko Pnk
+0490,Apricorn,White Apricorn,Aprikoko Wss
+0491,Apricorn,Black Apricorn,Aprikoko Swz
+0492,pokeball,Fast Ball,Flottball
+0493,pokeball,Level Ball,Levelball
+0494,pokeball,Lure Ball,Köderball
+0495,pokeball,Heavy Ball,Schwerball
+0496,pokeball,Love Ball,Sympaball
+0497,pokeball,Friend Ball,Freundesball
+0498,pokeball,Moon Ball,Mondball
+0499,pokeball,Sport Ball,Turnierball
+0500,pokeball,Park Ball,Parkball
+0501,keyItems,Photo Album,Fotoalbum
+0502,keyItems,GB Sounds,GB-Player
+0503,keyItems,Tidal Bell,Gischtglocke
+0504,medicine,Rage Candy Bar,Wutkeks
+0505,keyItems,Data Card 01,Datenkarte01
+0506,keyItems,Data Card 02,Datenkarte02
+0507,keyItems,Data Card 03,Datenkarte03
+0508,keyItems,Data Card 04,Datenkarte04
+0509,keyItems,Data Card 05,Datenkarte05
+0510,keyItems,Data Card 06,Datenkarte06
+0511,keyItems,Data Card 07,Datenkarte07
+0512,keyItems,Data Card 08,Datenkarte08
+0513,keyItems,Data Card 09,Datenkarte09
+0514,keyItems,Data Card 10,Datenkarte10
+0515,keyItems,Data Card 11,Datenkarte11
+0516,keyItems,Data Card 12,Datenkarte12
+0517,keyItems,Data Card 13,Datenkarte13
+0518,keyItems,Data Card 14,Datenkarte14
+0519,keyItems,Data Card 15,Datenkarte15
+0520,keyItems,Data Card 16,Datenkarte16
+0521,keyItems,Data Card 17,Datenkarte17
+0522,keyItems,Data Card 18,Datenkarte18
+0523,keyItems,Data Card 19,Datenkarte19
+0524,keyItems,Data Card 20,Datenkarte20
+0525,keyItems,Data Card 21,Datenkarte21
+0526,keyItems,Data Card 22,Datenkarte22
+0527,keyItems,Data Card 23,Datenkarte23
+0528,keyItems,Data Card 24,Datenkarte24
+0529,keyItems,Data Card 25,Datenkarte25
+0530,keyItems,Data Card 26,Datenkarte26
+0531,keyItems,Data Card 27,Datenkarte27
+0532,keyItems,Jade Orb,Grüne Kugel
+0533,keyItems,Lock Capsule,Tresorkapsel
+0534,keyItems,Red Orb,Rote Kugel
+0535,keyItems,Blue Orb,Blaue Kugel
+0536,keyItems,Enigma Stone,Mytokristall
+0537,hold,Prism Scale,Schönschuppe
+0538,hold,Eviolite,Evolith
+0539,hold,Float Stone,Leichtstein
+0540,hold,Rocky Helmet,Beulenhelm
+0541,hold,Air Balloon,Luftballon
+0542,hold,Red Card,Rote Karte
+0543,hold,Ring Target,Zielscheibe
+0544,hold,Binding Band,Klammerband
+0545,hold,Absorb Bulb,Knolle
+0546,hold,Cell Battery,Akku
+0547,hold,Eject Button,Fluchtknopf
+0548,hold,Fire Gem,Feuerjuwel
+0549,hold,Water Gem,Wasserjuwel
+0550,hold,Electric Gem,Elektrojuwel
+0551,hold,Grass Gem,Pflanzenjuwel
+0552,hold,Ice Gem,Eisjuwel
+0553,hold,Fighting Gem,Kampfjuwel
+0554,hold,Poison Gem,Giftjuwel
+0555,hold,Ground Gem,Bodenjuwel
+0556,hold,Flying Gem,Flugjuwel
+0557,hold,Psychic Gem,Psychojuwel
+0558,hold,Bug Gem,Käferjuwel
+0559,hold,Rock Gem,Gesteinsjuwel
+0560,hold,Ghost Gem,Geisterjuwel
+0561,hold,Dragon Gem,Drakojuwel
+0562,hold,Dark Gem,Unlichtjuwel
+0563,hold,Steel Gem,Stahljuwel
+0564,hold,Normal Gem,Normaljuwel
+0565,medicine,Health Feather,Heilfeder
+0566,medicine,Muscle Feather,Kraftfeder
+0567,medicine,Resist Feather,Abwehrfeder
+0568,medicine,Genius Feather,Geniefeder
+0569,medicine,Clever Feather,Espritfeder
+0570,medicine,Swift Feather,Flinkfeder
+0571,collectibles,Pretty Feather,Prachtfeder
+0572,collectibles,Cover Fossil,Panzerfossil
+0573,collectibles,Plume Fossil,Federfossil
+0574,keyItems,Liberty Pass,Gartenpass
+0575,collectibles,Pass Orb,Transferorb
+0576,pokeball,Dream Ball,Traumball
+0577,collectibles,Poké Toy,Pokéwedel
+0578,keyItems,Prop Case,Deko-Box
+0579,keyItems,Dragon Skull,Drakoschädel
+0580,collectibles,Balm Mushroom,Duftpilz
+0581,collectibles,Big Nugget,Riesennugget
+0582,collectibles,Pearl String,Triperle
+0583,collectibles,Comet Shard,Kometstück
+0584,collectibles,Relic Copper,Alter Heller
+0585,collectibles,Relic Silver,Alter Taler
+0586,collectibles,Relic Gold,Alter Dukat
+0587,collectibles,Relic Vase,Alte Vase
+0588,collectibles,Relic Band,Alter Reif
+0589,collectibles,Relic Statue,Alte Statue
+0590,collectibles,Relic Crown,Alte Krone
+0591,medicine,Casteliacone,Stratos-Eis
+0592,used,???,???
+0593,used,???,???
+0594,used,???,???
+0595,used,???,???
+0596,used,???,???
+0597,used,???,???
+0598,used,???,???
+0599,used,???,???
+0600,used,???,???
+0601,used,???,???
+0602,used,???,???
+0603,used,???,???
+0604,used,???,???
+0605,used,???,???
+0606,used,???,???
+0607,used,???,???
+0608,used,???,???
+0609,used,???,???
+0610,used,???,???
+0611,used,???,???
+0612,used,???,???
+0613,used,???,???
+0614,used,???,???
+0615,used,???,???
+0616,keyItems,Light Stone,Lichtstein
+0617,keyItems,Dark Stone,Dunkelstein
+0618,TM/HM,TM93,TM93
+0619,TM/HM,TM94,TM94
+0620,TM/HM,TM95,TM95
+0621,keyItems,Xtransceiver,Viso-Caster
+0622,keyItems,God Stone,Gott-Stein
+0623,keyItems,Gram 1,Briefpost 1
+0624,keyItems,Gram 2,Briefpost 2
+0625,keyItems,Gram 3,Briefpost 3
+0626,keyItems,Xtransceiver,Viso-Caster
+0627,keyItems,Medal Box,Medaillenbox
+0628,keyItems,DNA Splicers,DNS-Keil
+0629,keyItems,DNA Splicers,DNS-Keil
+0630,keyItems,Permit,Genehmigung
+0631,keyItems,Oval Charm,Ovalpin
+0632,keyItems,Shiny Charm,Schillerpin
+0633,keyItems,Plasma Card,Plasmakarte
+0634,keyItems,Grubby Hanky,Schnäuztuch
+0635,keyItems,Colress Machine,Achromat
+0636,keyItems,Dropped Item,Fundsache
+0637,keyItems,Dropped Item,Fundsache
+0638,keyItems,Reveal Glass,Wahrspiegel
+0639,hold,Weakness Policy,Schwächenschutz
+0640,hold,Assault Vest,Offensivweste
+0641,keyItems,Holo Caster,Holo-Loh
+0642,keyItems,Prof's Letter,Brief vom Prof
+0643,keyItems,Roller Skates,Rollerskates
+0644,hold,Pixie Plate,Feentafel
+0645,medicine,Ability Capsule,Fähigk.-Kapsel
+0646,hold,Whipped Dream,Sahnehäubchen
+0647,hold,Sachet,Duftbeutel
+0648,hold,Luminous Moss,Leuchtmoos
+0649,hold,Snowball,Schneeball
+0650,hold,Safety Goggles,Schutzbrille
+0651,keyItems,Poké Flute,Pokéflöte
+0652,usables,Rich Mulch,Sprießmulch
+0653,usables,Surprise Mulch,Wundermulch
+0654,usables,Boost Mulch,Wuchermulch
+0655,usables,Amaze Mulch,Ultramulch
+0656,hold,Gengarite,Gengarnit
+0657,hold,Gardevoirite,Guardevoirnit
+0658,hold,Ampharosite,Ampharosnit
+0659,hold,Venusaurite,Bisaflornit
+0660,hold,Charizardite X,Gluraknit X
+0661,hold,Blastoisinite,Turtoknit
+0662,hold,Mewtwonite X,Mewtunit X
+0663,hold,Mewtwonite Y,Mewtunit Y
+0664,hold,Blazikenite,Lohgocknit
+0665,hold,Medichamite,Meditalisnit
+0666,hold,Houndoominite,Hundemonit
+0667,hold,Aggronite,Stollosnit
+0668,hold,Banettite,Banetteonit
+0669,hold,Tyranitarite,Despotarnit
+0670,hold,Scizorite,Scheroxnit
+0671,hold,Pinsirite,Pinsirnit
+0672,hold,Aerodactylite,Aerodactylonit
+0673,hold,Lucarionite,Lucarionit
+0674,hold,Abomasite,Rexblisarnit
+0675,hold,Kangaskhanite,Kangamanit
+0676,hold,Gyaradosite,Garadosnit
+0677,hold,Absolite,Absolnit
+0678,hold,Charizardite Y,Gluraknit Y
+0679,hold,Alakazite,Simsalanit
+0680,hold,Heracronite,Skarabornit
+0681,hold,Mawilite,Flunkifernit
+0682,hold,Manectite,Voltensonit
+0683,hold,Garchompite,Knakracknit
+0684,hold,Latiasite,Latiasnit
+0685,hold,Latiosite,Latiosnit
+0686,berry,Roseli Berry,Hibisbeere
+0687,berry,Kee Berry,Akibeere
+0688,berry,Maranga Berry,Tarabeere
+0689,keyItems,Sprinklotad,Loturzekanne
+0690,TM/HM,TM96,TM96
+0691,TM/HM,TM97,TM97
+0692,TM/HM,TM98,TM98
+0693,TM/HM,TM99,TM99
+0694,TM/HM,TM100,TM100
+0695,keyItems,Power Plant Pass,Kraftwerks-Pass
+0696,keyItems,Mega Ring,Mega-Ring
+0697,keyItems,Intriguing Stone,Kurioser Stein
+0698,keyItems,Common Stone,Normaler Stein
+0699,keyItems,Discount Coupon,Rabattmarke
+0700,keyItems,Elevator Key,Liftschlüssel
+0701,keyItems,TMV Pass,TMV-Pass
+0702,keyItems,Honor of Kalos,Kalos-Emblem
+0703,keyItems,Adventure Guide,Abenteurfibel
+0704,keyItems,Strange Souvenir,Skurriloskulptur
+0705,keyItems,Lens Case,Linsenetui
+0706,keyItems,Makeup Bag,Kosmetiketui
+0707,keyItems,Travel Trunk,Kleiderkoffer
+0708,medicine,Lumiose Galette,Illumina-Galette
+0709,medicine,Shalour Sable,Yantara-Sablé
+0710,collectibles,Jaw Fossil,Kieferfossil
+0711,collectibles,Sail Fossil,Flossenfossil
+0712,keyItems,Looker Ticket,LeBelle-Ticket
+0713,keyItems,Bike,Fahrrad
+0714,keyItems,Holo Caster,Holo-Log
+0715,hold,Fairy Gem,Feenjuwel
+0716,keyItems,Mega Charm,Megaillon
+0717,used,???,???
+0718,keyItems,Mach Bike,Eilrad
+0719,keyItems,Acro Bike,Kunstrad
+0720,keyItems,Wailmer Pail,Wailmerkanne
+0721,keyItems,Devon Parts,Devon-Waren
+0722,keyItems,Soot Sack,Aschetasche
+0723,keyItems,Basement Key,Kelleröffner
+0724,keyItems,Pokéblock Kit,Pokériegel-Set
+0725,keyItems,Letter,Brief an Troy
+0726,keyItems,Eon Ticket,Äon-Ticket
+0727,keyItems,Scanner,Scanner
+0728,keyItems,Go-Goggles,Wüstenbrille
+0729,keyItems,Meteorite,Meteorit
+0730,keyItems,Key to Room 1,R1-Schlüssel
+0731,keyItems,Key to Room 2,R2-Schlüssel
+0732,keyItems,Key to Room 4,R4-Schlüssel
+0733,keyItems,Key to Room 6,R6-Schlüssel
+0734,keyItems,Storage Key,Lagerschlüssel
+0735,keyItems,Devon Scope,Devon-Scope
+0736,keyItems,S.S. Ticket,Bootsticket
+0737,TM/HM,HM09,VM09
+0738,keyItems,Devon Scuba Gear,Devon-Atemgerät
+0739,keyItems,Contest Costume,Live-Anzug
+0740,keyItems,Contest Costume,Live-Kleid
+0741,keyItems,Magma Suit,Magma-Anzug
+0742,keyItems,Aqua Suit,Aqua-Anzug
+0743,keyItems,Pair of Tickets,Zweierticket
+0744,keyItems,Mega Bracelet,Mega-Armreif
+0745,used,???,???
+0746,used,???,???
+0747,used,???,???
+0748,used,???,???
+0749,used,???,???
+0750,used,???,???
+0751,keyItems,Meteorite,Meteorit
+0752,hold,Swampertite,Sumpexnit
+0753,hold,Sceptilite,Gewaldronit
+0754,hold,Sablenite,Zobirisnit
+0755,hold,Altarianite,Altarianit
+0756,hold,Galladite,Galagladinit
+0757,hold,Audinite,Ohrdochnit
+0758,hold,Metagrossite,Metagrossnit
+0759,hold,Sharpedonite,Tohaidonit
+0760,hold,Slowbronite,Lahmusnit
+0761,hold,Steelixite,Stahlosnit
+0762,hold,Pidgeotite,Taubossnit
+0763,hold,Glalitite,Firnontornit
+0764,hold,Diancite,Diancienit
+0765,keyItems,Prison Bottle,Banngefäß
+0766,keyItems,Mega Cuff,Mega-Armband
+0767,hold,Cameruptite,Cameruptnit
+0768,hold,Lopunnite,Schlapornit
+0769,hold,Salamencite,Brutalandanit
+0770,hold,Beedrillite,Bibornit
+0771,keyItems,Meteorite,Meteorit
+0772,keyItems,Meteorite,Meteorit
+0773,keyItems,Key Stone,Schlüssel-Stein
+0774,keyItems,Meteorite Shard,Meteoritenstück
+0775,keyItems,Eon Flute,Äon-Flöte
+0776,hold,Normalium Z,Normium Z
+0777,hold,Firium Z,Pyrium Z
+0778,hold,Waterium Z,Aquium Z
+0779,hold,Electrium Z,Voltium Z
+0780,hold,Grassium Z,Botanium Z
+0781,hold,Icium Z,Glacium Z
+0782,hold,Fightinium Z,Batalium Z
+0783,hold,Poisonium Z,Toxium Z
+0784,hold,Groundium Z,Terrium Z
+0785,hold,Flyinium Z,Aerium Z
+0786,hold,Psychium Z,Psium Z
+0787,hold,Buginium Z,Insectium Z
+0788,hold,Rockium Z,Petrium Z
+0789,hold,Ghostium Z,Phantomium Z
+0790,hold,Dragonium Z,Dracium Z
+0791,hold,Darkinium Z,Noctium Z
+0792,hold,Steelium Z,Metallium Z
+0793,hold,Fairium Z,Sylphium Z
+0794,hold,Pikanium Z,Pikachium Z
+0795,collectibles,Bottle Cap,Silberkronkorken
+0796,collectibles,Gold Bottle Cap,Goldkronkorken
+0797,keyItems,Z-Ring,Z-Ring
+0798,hold,Decidium Z,Silvarronium Z
+0799,hold,Incinium Z,Fuegronium Z
+0800,hold,Primarium Z,Primarenium Z
+0801,hold,Tapunium Z,Kapium Z
+0802,hold,Marshadium Z,Marshadownium Z
+0803,hold,Aloraichium Z,A-Raichinium Z
+0804,hold,Snorlium Z,Relaxonium Z
+0805,hold,Eevium Z,Evolium Z
+0806,hold,Mewnium Z,Mewnium Z
+0807,hold,Normalium Z,Normium Z
+0808,hold,Firium Z,Pyrium Z
+0809,hold,Waterium Z,Aquium Z
+0810,hold,Electrium Z,Voltinum Z
+0811,hold,Grassium Z,Botanium Z
+0812,hold,Icium Z,Glacium Z
+0813,hold,Fightinium Z,Batalium Z
+0814,hold,Poisonium Z,Toxium Z
+0815,hold,Groundium Z,Terrium Z
+0816,hold,Flyinium Z,Aerium Z
+0817,hold,Psychium Z,Psium Z
+0818,hold,Buginium Z,Insectium Z
+0819,hold,Rockium Z,Petrium Z
+0820,hold,Ghostium Z,Phantomium Z
+0821,hold,Dragonium Z,Dracium Z
+0822,hold,Darkinium Z,Noctium Z
+0823,hold,Steelium Z,Metallium Z
+0824,hold,Fairium Z,Sylphium Z
+0825,hold,Pikanium Z,Pikachium Z
+0826,hold,Decidium Z,Silvarronium Z
+0827,hold,Incinium Z,Fuegronium Z
+0828,hold,Primarium Z,Primarenium Z
+0829,hold,Tapunium Z,Kapium Z
+0830,hold,Marshadium Z,Marshadownium Z
+0831,hold,Aloraichium Z,A-Raichunium Z
+0832,hold,Snorlium Z,Relaxonium Z
+0833,hold,Eevium Z,Evolium Z
+0834,hold,Mewnium Z,Mewnium Z
+0835,hold,Pikashunium Z,Ash-Pikachium Z
+0836,hold,Pikashunium Z,Ash-Pikachium Z
+0837,keyItems,Rubin,Ruby
+0838,keyItems,Sapphire,Saphir
+0839,keyItems,Old Seamap,Alte Seekarte
+0840,keyItems,Auroraticket,Auroraticket
+0841,keyItems,Forage Bag,Zutatenbeutel
+0842,keyItems,Fishing Rod,Angel
+0843,keyItems,Professor's Mask,Maske des Profs
+0844,keyItems,Festival Ticket,Festival-Ticket
+0845,keyItems,Sparkling Stone,Glitzerstein
+0846,battleItem,Adrenaline Orb,Zitterorb
+0847,keyItems,Zygarde Cube,Zygarde-Würfel
+0848,keyItems,Rainbow Pass,Bunt-Pass
+0849,usables,Ice Stone,Eisstein
+0850,keyItems,Ride Pager,PokéMobil-Funk
+0851,pokeball,Beast Ball,Ultraball
+0852,medicine,Big Malasada,Maxi-Malasada
+0853,usables,Red Nectar,Roter Nektar
+0854,usables,Yellow Nectar,Gelber Nektar
+0855,usables,Pink Nectar,Rosa Nektar
+0856,usables,Purple Nectar,Purpurner Nektar
+0857,keyItems,Sun Flute,Sonnenflöte
+0858,keyItems,Moon Flute,Mondflöte
+0859,berry,Nion Berry,Lebizbeere
+0860,keyItems,Enigmatic Card,Seltsame Karte
+0861,berry,Pumkin Berry,Kürbibeere
+0862,berry,Drash Berry,Rühbeere
+0863,berry,Chro Berry,Gombeere
+0864,berry,Rie Berry,Riebeere
+0865,berry,Garc Berry,Knochbeere
+0866,berry,Topo Berry,Toffelbeere
+0867,berry,Nutpea Berry,Kurubeere
+0868,berry,Chilan Berry,Latchibeere
+0869,berry,Yago Berry,Yagobeere
+0870,berry,Strib Berry,Nohbeere
+0871,berry,Eggant Berry,Eggantbeere
+0872,keyItems,Secret Key,Geheimschlüssel
+0873,keyItems,S.S. Ticket,Bootsticket
+0874,keyItems,Silph Scope,Silph Scope
+0875,keyItems,Parcel,Paket
+0876,keyItems,Card Key,Schlüsselkarte
+0877,keyItems,Gold Teeth,Goldzähne
+0878,keyItems,Lift Key,Liftschlüssel
+0879,hold,Terrain Extender,Feldbeschichtung
+0880,hold,Protective Pads,Schutzpolster
+0881,hold,Electric Seed,Elektro-Samen
+0882,hold,Psychic Seed,Psycho-Samen
+0883,hold,Misty Seed,Nebel-Samen
+0884,hold,Grassy Seed,Gras-Samen
+0885,used,???,???
+0886,used,???,???
+0887,used,???,???
+0888,used,???,???
+0889,used,???,???
+0890,used,???,???
+0891,used,???,???
+0892,used,???,???
+0893,used,???,???
+0894,used,???,???
+0895,used,???,???
+0896,used,???,???
+0897,?,???,???
+0898,?,???,???
+0899,?,???,???
+0900,used,???,???
+0901,used,???,???
+0902,used,???,???
+0903,medicine,Pewter Crunchies,Marmoria-Kräcker
+0904,hold,Fighting Memory,Kampf-Disc
+0905,hold,Flying Memory,Flug-Disk
+0906,hold,Poison Memory,Gift-Disk
+0907,hold,Ground Memory,Boden-Disk
+0908,hold,Rock Memory,Gesteins-Disk
+0909,hold,Bug Memory,Käfer-Disk
+0910,hold,Ghost Memory,Geister-Disk
+0911,hold,Steel Memory,Stahl-Disk
+0912,hold,Fire Memory,Feuer-Disk
+0913,hold,Water Memory,Wasser-Disk
+0914,hold,Grass Memory,Planzen-Disk
+0915,hold,Electric Memory,Elektro-Disk
+0916,hold,Psychic Memory,Psycho-Disk
+0917,hold,Ice Memory,Eis-Disk
+0918,hold,Dragon Memory,Drachen-Disk
+0919,hold,Dark Memory,Unlicht-Disk
+0920,hold,Fairy Memory,Feen-Disk
+0921,hold,Solganium Z,Solgalium Z
+0922,hold,Lunalium Z,Lunalium Z
+0923,hold,Ultranecrozium Z,Ultranecronium Z
+0924,hold,Mimikium Z,Mimigmium Z
+0925,hold,Lycanium Z,Wolwerockium Z
+0926,hold,Kommonium Z,Grandirasium Z
+0927,hold,Solganium Z,Solgalium Z
+0928,hold,Lunalium Z,Lunalium Z
+0929,hold,Ultranecrozium Z,Ultranecronium Z
+0930,hold,Mimikium Z,Mimigmium Z
+0931,hold,Lycanium Z,Wolwerockium Z
+0932,hold,Kommonium Z,Grandirasium Z
+0933,keyItems,Z-Power Ring,Z-Kraftring
+0934,used,???,???
+0935,used,???,???
+0936,used,???,???
+0937,used,???,???
+0938,used,???,???
+0939,used,???,???
+0940,used,???,???
+0941,used,???,???
+0942,used,???,???
+0943,keyItems,N-Solarizer,Necrosol
+0944,keyItems,N-Lunarizer,Necrolun
+0945,keyItems,N-Solarizer,Necrosol
+0946,keyItems,N-Lunarizer,Necrolun
+0947,used,???,???
+0948,used,???,???
+0949,used,???,???
+0950,used,???,???
+0951,used,???,???
+0952,used,???,???
+0953,used,???,???
+0954,used,???,???
+0955,used,???,???
+0956,used,???,???
+0957,used,???,???
+0958,used,???,???
+0959,used,???,???
+0960,medicine,Health Candy,Energiebonbon
+0961,medicine,Mighty Candy,Stärkebonbon
+0962,medicine,Tough Candy,Robustbonbon
+0963,medicine,Smart Candy,Gripsbonbon
+0964,medicine,Courage Candy,Mentalbonbon
+0965,medicine,Quick Candy,Flottbonbon
+0966,medicine,Health Candy L,Energiebonbon+
+0967,medicine,Mighty Candy L,Stärkebonbon+
+0968,medicine,Tough Candy L,Robustbonbon+
+0969,medicine,Smart Candy L,Gripsbonbon+
+0970,medicine,Courage Candy L,Mentalbonbon+
+0971,medicine,Quick Candy L,Flottbonbon+
+0972,medicine,Health Candy XL,Energiebonbon++
+0973,medicine,Mighty Candy XL,Stärkebonbon++
+0974,medicine,Tough Candy XL,Robustbonbon++
+0975,medicine,Smart Candy XL,Gripsbonbon++
+0976,medicine,Courage Candy XL,Mentalbonbon++
+0977,medicine,Quick Candy XL,Flottbonbon++
+0978,used,???,???
+0979,used,???,???
+0980,used,???,???
+0981,used,???,???
+0982,used,???,???
+0983,used,???,???
+0984,used,???,???
+0985,used,???,???
+0986,used,???,???
+0987,used,???,???
+0988,used,???,???
+0989,used,???,???
+0990,used,???,???
+0991,used,???,???
+0992,used,???,???
+0993,used,???,???
+0994,used,???,???
+0995,used,???,???
+0996,used,???,???
+0997,used,???,???
+0998,used,???,???
+0999,used,???,???
+1000,used,???,???
+1901,used,???,???
+1002,used,???,???
+1003,used,???,???
+1004,used,???,???
+1005,used,???,???
+1006,used,???,???
+1007,used,???,???
+1008,used,???,???
+1009,used,???,???
+1010,used,???,???
+1011,used,???,???
+1012,used,???,???
+1013,used,???,???
+1014,used,???,???
+1015,used,???,???
+1016,used,???,???
+1017,used,???,???
+1018,used,???,???
+1019,used,???,???
+1020,used,???,???
+1021,used,???,???
+1022,used,???,???
+1023,used,???,???
+1024,used,???,???
+1025,used,???,???
+1026,used,???,???
+1027,used,???,???
+1028,used,???,???
+1029,used,???,???
+1030,used,???,???
+1031,used,???,???
+1032,used,???,???
+1033,used,???,???
+1034,used,???,???
+1035,used,???,???
+1036,used,???,???
+1037,used,???,???
+1038,used,???,???
+1039,used,???,???
+1040,used,???,???
+1041,used,???,???
+1042,used,???,???
+1043,used,???,???
+1044,used,???,???
+1045,used,???,???
+1046,used,???,???
+1047,used,???,???
+1048,used,???,???
+1049,used,???,???
+1050,used,???,???
+1051,used,???,???
+1052,used,???,???
+1053,used,???,???
+1054,used,???,???
+1055,used,???,???
+1056,used,???,???
+1057,used,???,???
+1058,?,???,???
+1059,?,???,???
+1060,?,???,???
+1061,?,???,???
+1062,?,???,???
+1063,?,???,???
+1064,?,???,???
+1065,?,???,???
+1066,?,???,???
+1067,?,???,???
+1068,?,???,???
+1069,?,???,???
+1070,?,???,???
+1071,?,???,???
+1072,?,???,???
+1073,?,???,???
+1074,keyItems,Endorsement,Emphehlungsbrief
+1075,keyItems,Pokémon Box Link,Pokémon-Box
+1076,keyItems,Wishing Star,Wunschstern
+1077,keyItems,Dynamax Band,Dynamax-Band
+1078,?,???,???
+1079,?,???,???
+1080,keyItems,Fishing Rod,Angel
+1081,keyItems,Rotom Bike,Rotom-Rad
+1082,?,???,
+1083,?,???,
+1084,used,???,???
+1085,used,???,???
+1086,used,???,???
+1087,used,???,???
+1088,used,???,???
+1089,used,???,???
+1090,used,???,???
+1091,used,???,???
+1092,used,???,???
+1093,used,???,???
+1094,used,???,???
+1095,used,???,???
+1096,used,???,???
+1097,used,???,???
+1098,used,???,???
+1099,used,???,???
+1100,used,???,???
+1101,,???,
+1102,,???,
+1103,hold,Rusted Sword,Rostiges Schwert
+1104,hold,Rusted Shield,Rostiger Schild
+1105,collectibles,Fossilized Bird,Vogelfossil
+1106,collectibles,Fossilized Fish,Fischfossil
+1107,collectibles,Fossilized Drake,Drachenfossil
+1108,collectibles,Fossilized Dino,Paddelfossil
+1109,hold,Strawberry Sweet,Zucker-Erdbeere
+1110,hold,Love Sweet,Zucker-Herz
+1111,hold,Berry Sweet,Zucker-Beere
+1112,hold,Clover Sweet,Zucker-Kleeblatt
+1113,hold,Flower Sweet,Zucker-Blume
+1114,hold,Star Sweet,Zucker-Stern
+1115,hold,Ribbon Sweet,Zucker-Schleife
+1116,hold,Sweet Apple,Süßer Apfel
+1117,hold,Tart Apple,Saurer Apfel
+1118,hold,Throat Spray,Hasspray
+1119,hold,Eject Pack,Fluchttasche
+1120,hold,Heavy-Duty Boots,Plateauschuhe
+1121,hold,Blunder Policy,Fehlschlagschutz
+1122,hold,Room Service,Bizarroservice
+1123,hold,Utility Umbrella,Allzweckschirm
+1124,medicine,Exp. Candy XS,EP-Bonbon XS
+1125,medicine,Exp. Candy XS,EP-Bonbon S
+1126,medicine,Exp. Candy XS,EP-Bonbon M
+1127,medicine,Exp. Candy XS,EP-Bonbon L
+1128,medicine,Exp. Candy XS,EP-Bonbon XL
+1129,used,???,???
+1130,TM/HM,TR00,TP00
+1131,TM/HM,TR01,TP01
+1132,TM/HM,TR02,TP02
+1133,TM/HM,TR03,TP03
+1134,TM/HM,TR04,TP04
+1135,TM/HM,TR05,TP05
+1136,TM/HM,TR06,TP06
+1137,TM/HM,TR07,TP07
+1138,TM/HM,TR08,TP08
+1139,TM/HM,TR09,TP09
+1140,TM/HM,TR10,TP10
+1141,TM/HM,TR11,TP11
+1142,TM/HM,TR12,TP12
+1143,TM/HM,TR13,TP13
+1144,TM/HM,TR14,TP14
+1145,TM/HM,TR15,TP15
+1146,TM/HM,TR16,TP16
+1147,TM/HM,TR17,TP17
+1148,TM/HM,TR18,TP18
+1149,TM/HM,TR19,TP19
+1150,TM/HM,TR20,TP20
+1151,TM/HM,TR21,TP21
+1152,TM/HM,TR22,TP22
+1153,TM/HM,TR23,TP23
+1154,TM/HM,TR24,TP24
+1155,TM/HM,TR25,TP25
+1156,TM/HM,TR26,TP26
+1157,TM/HM,TR27,TP27
+1158,TM/HM,TR28,TP28
+1159,TM/HM,TR29,TP29
+1160,TM/HM,TR30,TP30
+1161,TM/HM,TR31,TP31
+1162,TM/HM,TR32,TP32
+1163,TM/HM,TR33,TP33
+1164,TM/HM,TR34,TP34
+1165,TM/HM,TR35,TP35
+1166,TM/HM,TR36,TP36
+1167,TM/HM,TR37,TP37
+1168,TM/HM,TR38,TP38
+1169,TM/HM,TR39,TP39
+1170,TM/HM,TR40,TP40
+1171,TM/HM,TR41,TP41
+1172,TM/HM,TR42,TP42
+1173,TM/HM,TR43,TP43
+1174,TM/HM,TR44,TP44
+1175,TM/HM,TR45,TP45
+1176,TM/HM,TR46,TP46
+1177,TM/HM,TR47,TP47
+1178,TM/HM,TR48,TP48
+1179,TM/HM,TR49,TP49
+1180,TM/HM,TR50,TP50
+1181,TM/HM,TR51,TP51
+1182,TM/HM,TR52,TP52
+1183,TM/HM,TR53,TP53
+1184,TM/HM,TR54,TP54
+1185,TM/HM,TR55,TP55
+1186,TM/HM,TR56,TP56
+1187,TM/HM,TR57,TP57
+1188,TM/HM,TR58,TP58
+1189,TM/HM,TR59,TP59
+1190,TM/HM,TR60,TP60
+1191,TM/HM,TR61,TP61
+1192,TM/HM,TR62,TP62
+1193,TM/HM,TR63,TP63
+1194,TM/HM,TR64,TP64
+1195,TM/HM,TR65,TP65
+1196,TM/HM,TR66,TP66
+1197,TM/HM,TR67,TP67
+1198,TM/HM,TR68,TP68
+1199,TM/HM,TR69,TP69
+1200,TM/HM,TR70,TP70
+1201,TM/HM,TR71,TP71
+1202,TM/HM,TR72,TP72
+1203,TM/HM,TR73,TP73
+1204,TM/HM,TR74,TP74
+1205,TM/HM,TR75,TP75
+1206,TM/HM,TR76,TP76
+1207,TM/HM,TR77,TP77
+1208,TM/HM,TR78,TP78
+1209,TM/HM,TR79,TP79
+1210,TM/HM,TR80,TP80
+1211,TM/HM,TR81,TP81
+1212,TM/HM,TR82,TP82
+1213,TM/HM,TR83,TP83
+1214,TM/HM,TR84,TP84
+1215,TM/HM,TR85,TP85
+1216,TM/HM,TR86,TP86
+1217,TM/HM,TR87,TP87
+1218,TM/HM,TR88,TP88
+1219,TM/HM,TR89,TP89
+1220,TM/HM,TR90,TP90
+1221,TM/HM,TR91,TP91
+1222,TM/HM,TR92,TP92
+1223,TM/HM,TR93,TP93
+1224,TM/HM,TR94,TP94
+1225,TM/HM,TR95,TP95
+1226,TM/HM,TR96,TP96
+1227,TM/HM,TR97,TP97
+1228,TM/HM,TR98,TP98
+1229,TM/HM,TR99,TP99
+1230,TM/HM,TM00,TM00
+1231,medicine,Lonely Mint,Solo-Minze
+1232,medicine,Adamant Mint,Hart-Minze
+1233,medicine,Naughty Mint,Frech-Minze
+1234,medicine,Brave Mint,Mutig-Minze
+1235,medicine,Bold Mint,Kühn-Minze
+1236,medicine,Impish Mint,Pfiffig-Minze
+1237,medicine,Lax Mint,Lasch-Minze
+1238,medicine,Relaxed Mint,Locker-Minze
+1239,medicine,Modest Mint,Mäßig-Minze
+1240,medicine,Mild Mint,Mild-Minze
+1241,medicine,Rash Mint,Hitzig-Minze
+1242,medicine,Quiet Mint,Ruhig-Minze
+1243,medicine,Calm Mint,Still-Minze
+1244,medicine,Gentle Mint,Zart-Minze
+1245,medicine,Careful Mint,Sacht-Minze
+1246,medicine,Sassy Mint,Fursch-Minze
+1247,medicine,Timid Mint,Scheu-Minze
+1248,medicine,Hasty Mint,Hastig-Minze
+1249,medicine,Jolly Mint,Froh-Minze
+1250,medicine,Naive Mint,Naiv-Minze
+1251,medicine,Serious Mint,Ernst-Minze
+1252,collectibles,Wishing Piece,
+1253,hold,Cracked Pot,Rissige Kanne
+1254,hold,Chipped Pot,Löchrige Kanne
+1255,keyItems,Hi-tech Earbuds,Top-Ohrenstöpsel
+1256,used,???,???
+1257,used,???,???
+1258,used,???,???
+1259,used,???,???
+1260,used,???,???
+1261,used,???,???
+1262,used,???,???
+1263,used,???,???
+1264,used,???,???
+1265,used,???,???
+1266,keyItems,Rotom Bike,Rotom-Rad
+1267,keyItems,Catching Charm,Superfangpin
+1268,?,???,???
+1269,keyItems,Old Letter,Vergilbter Brief
+1270,keyItems,Band Autograph,Band-Autogramm
+1271,keyItems,Sonia's Book,Sanias Buch
+1272,?,???,???
+1273,?,???,???
+1274,?,???,???
+1275,?,???,???
+1276,?,???,???
+1277,?,???,???
+1278,keyItems,Rotom Catalog,Rotom-Katalog

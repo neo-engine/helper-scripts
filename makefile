@@ -6,11 +6,17 @@ OBJECTS=$(SOURCES:.cpp=.o)
 
 all: png2raw raw2png npl2rsd clean imgbin2raw
 
+csvjoin: $(OBJECTS) csvjoin.o
+	$(CC) csvjoin.o -o $@
+
 imgbin2raw: $(OBJECTS) imgbin2raw.o
 	$(CC) imgbin2raw.o -o $@
 
 png2raw: $(OBJECTS) png2raw.o
 	$(CC) $(LDFLAGS) png2raw.o $(OBJECTS) -o $@
+
+sprite2raw: $(OBJECTS) sprite2raw.o
+	$(CC) $(LDFLAGS) sprite2raw.o $(OBJECTS) -o $@
 
 pkmnicon2rsd: $(OBJECTS) pkmnicon2rsd.o
 	$(CC) $(LDFLAGS) pkmnicon2rsd.o $(OBJECTS) -o $@
