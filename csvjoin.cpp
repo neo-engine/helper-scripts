@@ -61,7 +61,7 @@ int main( int p_argc, char** p_argv ) {
             t1 = strtok_r( NULL, ",", &saveptr1 );
             t2 = strtok_r( NULL, ",", &saveptr2 );
         }
-        if( cnt < outlen )
+        if( cnt < outlen || merge[ outlen - 1 ] == 'x' )
             fputc( '\n', fout );
     }
     fclose( f1 );

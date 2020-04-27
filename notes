@@ -5,3 +5,13 @@ Kuo Berry ->    Chro Berry
 Toga Berry ->   Rie Berry
 Niniku Berry -> Garc Berry
 
+
+pkmndescr (data that changes with forms):
+
+#id,type1,type2,ability1,ability2,hidden ability,egg group 1,egg group 2,hp base,atk
+base,def base, satk base,sdef base, spd base
+
+
+pkmndata (data constant for each form of a pkmn)
+
+#id,exp group,egg cycles,catch rate,base happiness,
