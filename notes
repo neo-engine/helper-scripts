@@ -8,10 +8,13 @@ Niniku Berry -> Garc Berry
 
 pkmndescr (data that changes with forms):
 
-#id,type1,type2,ability1,ability2,hidden ability,egg group 1,egg group 2,hp base,atk
-base,def base, satk base,sdef base, spd base
+#id,type1,type2,ability1,ability2,hidden ability,egg group 1,egg group 2,
+hp base,atk base,def base, satk base,sdef base, spd base,
+exp yield,gender ratio,size,weight,color,shape,
+hp ev,atk ev,def ev,satk ev,sdef ev,spd ev,
+item1%,item5%,item10%,item100%
 
 
 pkmndata (data constant for each form of a pkmn)
 
-#id,exp group,egg cycles,catch rate,base happiness,
+#id,exp group,egg cycles,catch rate,base happiness,forme_cnt

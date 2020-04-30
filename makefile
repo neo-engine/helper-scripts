@@ -18,8 +18,14 @@ png2raw: $(OBJECTS) png2raw.o
 sprite2raw: $(OBJECTS) sprite2raw.o
 	$(CC) $(LDFLAGS) sprite2raw.o $(OBJECTS) -o $@
 
+pkmnsprite2raw: $(OBJECTS) pkmnsprite2raw.o
+	$(CC) $(LDFLAGS) pkmnsprite2raw.o $(OBJECTS) -o $@
+
 pkmnicon2rsd: $(OBJECTS) pkmnicon2rsd.o
 	$(CC) $(LDFLAGS) pkmnicon2rsd.o $(OBJECTS) -o $@
+
+pkmndata: $(OBJECTS) pkmndata.o
+	$(CC) $(LDFLAGS) pkmndata.o $(OBJECTS) -o $@
 
 raw2png: $(OBJECTS) raw2png.o
 	$(CC) $(LDFLAGS) raw2png.o $(OBJECTS) -o $@

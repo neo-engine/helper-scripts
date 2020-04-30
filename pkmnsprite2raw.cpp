@@ -1,5 +1,5 @@
-// Converts a sprite to a rsd file
-// Arguments: icon###*.png, where ### is the id of the corresponding sprite
+// Converts a pkmn sprite to a rsd file.
+// Arguments: ###*.png, where ### is the id of the corresponding sprite
 // HEIGHT, WIDTH, NUM_FRAMES (if > 0, generates *rsd), THERSHOLD, MAX_ITEMS_PER_DIR
 //
 // Outputs the file into folder (###)/30 (padded with zeros to a 2 character name) if ###
@@ -32,17 +32,40 @@ unsigned short pal[ 300 ] = { 0 };
 typedef tuple<u8, u8, u8> t3;
 map<unsigned short, u8> palidx;
 
-void print_tiled( FILE* p_f, u8* p_image_data, u8 p_width, u8 p_height ) {
+void print_tiled( FILE* p_f, u8* p_image_data ) {
     // Tile the given sprite into 8x8 blocks
-    for( size_t y = 0; y < p_height; y += 8 ) {
-        for( size_t x = 0; x < p_width; x += 4 ) {
+    // 64x64 chunk
+    for( size_t y = 0; y < 64; y += 8 ) {
+        for( size_t x = 0; x < 32; x += 4 ) {
             for( size_t by = 0; by < 8; ++by ) {
-//                printf( "%u -> %u\n", ( y + by ) * 16 + x, ( y + by ) * 16 + x + 4);
-                fwrite( p_image_data + ( y + by ) * 16 + x, 1, 4, p_f );
+                fwrite( p_image_data + ( y + by ) * 48 + x, 1, 4, p_f );
             }
         }
     }
-
+    // 64x32 chunk
+    for( size_t y = 0; y < 64; y += 8 ) {
+        for( size_t x = 32; x < 48; x += 4 ) {
+            for( size_t by = 0; by < 8; ++by ) {
+                fwrite( p_image_data + ( y + by ) * 48 + x, 1, 4, p_f );
+            }
+        }
+    }
+    // 32x64 chunk
+    for( size_t y = 64; y < 96; y += 8 ) {
+        for( size_t x = 0; x < 32; x += 4 ) {
+            for( size_t by = 0; by < 8; ++by ) {
+                fwrite( p_image_data + ( y + by ) * 48 + x, 1, 4, p_f );
+            }
+        }
+    }
+    // 32x32 chunc
+    for( size_t y = 64; y < 96; y += 8 ) {
+        for( size_t x = 32; x < 48; x += 4 ) {
+            for( size_t by = 0; by < 8; ++by ) {
+                fwrite( p_image_data + ( y + by ) * 48 + x, 1, 4, p_f );
+            }
+        }
+    }
 }
 
 // Computes distance between colors
@@ -61,21 +84,15 @@ int main( int p_argc, char** p_argv ) {
 
     bitmap in( p_argv[ 1 ] );
 
-    u8 NUM_FRAMES = 0, HEIGHT = 32, WIDTH = 32, THRESHOLD = 10, MAX_ITEMS_PER_DIR = 30;
+    u8 NUM_FRAMES = 0, HEIGHT = 96, WIDTH = 96, THRESHOLD = 10, MAX_ITEMS_PER_DIR = 30;
     if( p_argc >= 3 ) {
-        sscanf( p_argv[ 2 ], "%hhu", &HEIGHT );
+        sscanf( p_argv[ 2 ], "%hhu", &NUM_FRAMES );
     }
     if( p_argc >= 4 ) {
-        sscanf( p_argv[ 3 ], "%hhu", &WIDTH );
+        sscanf( p_argv[ 3 ], "%hhu", &THRESHOLD );
     }
     if( p_argc >= 5 ) {
-        sscanf( p_argv[ 4 ], "%hhu", &NUM_FRAMES );
-    }
-    if( p_argc >= 6 ) {
-        sscanf( p_argv[ 5 ], "%hhu", &THRESHOLD );
-    }
-    if( p_argc >= 7 ) {
-        sscanf( p_argv[ 6 ], "%hhu", &MAX_ITEMS_PER_DIR );
+        sscanf( p_argv[ 4 ], "%hhu", &MAX_ITEMS_PER_DIR );
     }
 
     u8 col = 0;
@@ -85,14 +102,19 @@ int main( int p_argc, char** p_argv ) {
         genraw = ( NUM_FRAMES = 1 );
     }
 
+    size_t SCALE = 1;
+    if( in.m_width == 192 && in.m_height == 192 ) {
+        SCALE = 2;
+    }
+
     for( size_t frame = 0; frame < NUM_FRAMES; ++frame )
         for( size_t y = 0; y < HEIGHT; y++ )
             for( size_t x = 0; x < WIDTH; x++ ) {
                 size_t nx = x + WIDTH * frame;
 
-                unsigned short conv_color = ( conv( in( nx, y ).m_red ) )
-                    | ( conv( in( nx, y ).m_green ) << 5 )
-                    | ( conv( in( nx, y ).m_blue ) << 10 )
+                unsigned short conv_color = ( conv( in( nx * SCALE, y * SCALE ).m_red ) )
+                    | ( conv( in( nx * SCALE, y * SCALE ).m_green ) << 5 )
+                    | ( conv( in( nx * SCALE, y * SCALE ).m_blue ) << 10 )
                     | ( 1 << 15 );
                 //                printf( "\x1b[48;2;%u;%u;%um%u %u %u\x1b[0;00m ->\x1b[48;2;%u;%u;%um %x\x1b[0;00m\n",
                 //                        in( nx, y ).m_red, in( nx, y ).m_green, in(nx, y ).m_blue,
@@ -111,7 +133,7 @@ int main( int p_argc, char** p_argv ) {
 
                     if( min_del < THRESHOLD && col + start ) {
                         fprintf( stderr, "[%s] replacing \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m"
-                                "with \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m (%hu)\n",
+                                " with \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m (%hu)\n",
                                 p_argv[ 1 ],
                                 red( conv_color ), blue( conv_color ), green( conv_color
                                     ), conv_color,
@@ -121,7 +143,7 @@ int main( int p_argc, char** p_argv ) {
                     } else if( col + start > 16 ) {
                         fprintf( stderr, "[%s] To COLORFUL:", p_argv[ 1 ] );
                         fprintf( stderr, " replacing \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m"
-                                "with \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m\n",
+                                " with \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m\n",
                                 red( conv_color ), blue( conv_color ), green( conv_color
                                     ), conv_color,
                                 red( pal[ del_p ] ), blue( pal[ del_p ] ), green( pal[
@@ -138,7 +160,7 @@ int main( int p_argc, char** p_argv ) {
                 image_data[ WIDTH * HEIGHT * frame + y * WIDTH + x ] = start +
                     palidx[ conv_color ];
             }
-    //    in.writeToFile( (string(p_argv[ 1 ]) + ".test.png").c_str() );
+    //in.writeToFile( (string(p_argv[ 1 ]) + ".test.png").c_str() );
 
     size_t numTiles = HEIGHT * WIDTH * NUM_FRAMES, numColors = 16;
 
@@ -155,7 +177,7 @@ int main( int p_argc, char** p_argv ) {
 
     unsigned short pkmnidx;
     FILE* fout;
-    if( !sscanf( p_argv[ 1 ], "icon%03hu", &pkmnidx ) ) {
+    if( !sscanf( p_argv[ 1 ], "%03hu", &pkmnidx ) ) {
         // Output to cwd
         fout = fopen( ( rspth + ( genraw ? ".raw" : ".rsd" ) ).c_str( ), "wb" );
     } else {
@@ -167,17 +189,14 @@ int main( int p_argc, char** p_argv ) {
 
     u8 meta[3] = { NUM_FRAMES, WIDTH, HEIGHT };
 
+    fwrite( pal, sizeof(unsigned short int), numColors, fout );
     if( !genraw ) {
-        fwrite( pal, sizeof(unsigned short int), numColors, fout );
         fwrite( meta, sizeof(u8), 3, fout );
     }
 
     for( size_t fr = 0; fr < NUM_FRAMES; ++fr )
-        print_tiled( fout, image_data + fr * 16 * 32, WIDTH / 2, HEIGHT );
+        print_tiled( fout, image_data + fr * 16 * 32 );
 
-    if( genraw ) {
-        fwrite( pal, sizeof(unsigned short int), numColors, fout );
-    }
     fclose( fout );
 
     /*

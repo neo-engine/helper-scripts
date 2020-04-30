@@ -50,7 +50,7 @@ void print_tiled( FILE* p_f, u8* p_image_data, u8 p_width, u8 p_height ) {
         for( size_t x = 0; x < p_width; x += 4 ) {
             for( size_t by = 0; by < 8; ++by ) {
 //                printf( "%u -> %u\n", ( y + by ) * 16 + x, ( y + by ) * 16 + x + 4);
-                fwrite( p_image_data + ( y + by ) * 16 + x, 1, 4, p_f );
+                fwrite( p_image_data + ( y + by ) * p_width + x, 1, 4, p_f );
             }
         }
     }
@@ -135,7 +135,7 @@ int main( int p_argc, char** p_argv ) {
 
                     if( min_del < THRESHOLD && col + start ) {
                         fprintf( stderr, "[%s] replacing \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m"
-                                "with \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m (%hu)\n",
+                                " with \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m (%hu)\n",
                                 p_argv[ 1 ],
                                 red( conv_color ), blue( conv_color ), green( conv_color
                                     ), conv_color,
@@ -145,7 +145,7 @@ int main( int p_argc, char** p_argv ) {
                     } else if( col + start > 16 ) {
                         fprintf( stderr, "[%s] To COLORFUL:", p_argv[ 1 ] );
                         fprintf( stderr, " replacing \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m"
-                                "with \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m\n",
+                                " with \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m\n",
                                 red( conv_color ), blue( conv_color ), green( conv_color
                                     ), conv_color,
                                 red( pal[ del_p ] ), blue( pal[ del_p ] ), green( pal[
