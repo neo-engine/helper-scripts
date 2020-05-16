@@ -1,0 +1,259 @@
+000,Cacophony,Energieaufladung
+001,Stench,Duftnote
+002,Drizzle,Niesel
+003,Speed Boost,Temposchub
+004,Battle Armor,Kampfpanzer
+005,Sturdy,Robustheit
+006,Damp,Feuchtigkeit
+007,Limber,Flexibilität
+008,Sand Veil,Sandschleier
+009,Static,Statik
+010,Volt Absorb,Voltabsorber
+011,Water Absorb,H2O-Absorber
+012,Oblivious,Dösigkeit
+013,Cloud Nine,Wolke Sieben
+014,Compoundeyes,Facettenauge
+015,Insomnia,Insomnia
+016,Color Change,Farbwechsel
+017,Immunity,Immunität
+018,Flash Fire,Feuerfänger
+019,Shield Dust,Puderabwehr
+020,Own Tempo,Tempomacher
+021,Suction Cups,Saugnapf
+022,Intimidate,Bedroher
+023,Shadow Tag,Wegsperre
+024,Rough Skin,Rauhaut
+025,Wonder Guard,Wunderwache
+026,Levitate,Schwebe
+027,Effect Spore,Sporenwirt
+028,Synchronize,Synchro
+029,Clear Body,Neutraltorso
+030,Natural Cure,Innere Kraft
+031,Lightningrod,Blitzfänger
+032,Serene Grace,Edelmut
+033,Swift Swim,Wassertempo
+034,Chlorophyll,Chlorophyll
+035,Illuminate,Erleuchtung
+036,Trace,Erfassen
+037,Huge Power,Kraftkoloss
+038,Poison Point,Giftdorn
+039,Inner Focus,Konzentrator
+040,Magma Armor,Magmapanzer
+041,Water Veil,Aquahülle
+042,Magnet Pull,Magnetfalle
+043,Soundproof,Lärmschutz
+044,Rain Dish,Regengenuss
+045,Sand Stream,Sandsturm
+046,Pressure,Erzwinger
+047,Thick Fat,Speckschicht
+048,Early Bird,Frühwecker
+049,Flame Body,Flammkörper
+050,Run Away,Angsthase
+051,Keen Eye,Adlerauge
+052,Hyper Cutter,Scherenmacht
+053,Pickup,Mitnahme
+054,Truant,Schnarchnase
+055,Hustle,Übereifer
+056,Cute Charm,Charmebolzen
+057,Plus,Plus
+058,Minus,Minus
+059,Forecast,Prognose
+060,Sticky Hold,Klebekörper
+061,Shed Skin,Expidermis
+062,Guts,Adrenalin
+063,Marvel Scale,Notschutz
+064,Liquid Ooze,Kloakensoße
+065,Overgrow,Notdünger
+066,Blaze,Großbrand
+067,Torrent,Sturzbach
+068,Swarm,Hexaplaga
+069,Rock Head,Steinhaupt
+070,Drought,Dürre
+071,Arena Trap,Ausweglos
+072,Vital Spirit,Munterkeit
+073,White Smoke,Pulverrauch
+074,Pure Power,Mentalkraft
+075,Shell Armor,Panzerhaut
+076,Air Lock,Klimaschutz
+077,Tangled Feet,Fußangel
+078,Motor Drive,Starthilfe
+079,Rivalry,Rivalität
+080,Steadfast,Felsenfest
+081,Snow Cloak,Schneemantel
+082,Gluttony,Völlerei
+083,Anger Point,Kurzschluss
+084,Unburden,Entlastung
+085,Heatproof,Hitzeschutz
+086,Simple,Wankelmut
+087,Dry Skin,Trockenheit
+088,Download,Download
+089,Iron Fist,Eisenfaust
+090,Poison Heal,Aufheber
+091,Adaptability,Anpassung
+092,Skill Link,Wertelink
+093,Hydration,Hydration
+094,Solar Power,Solarkraft
+095,Quick Feet,Rasanz
+096,Normalize,Regulierung
+097,Sniper,Superschütze
+098,Magic Guard,Magieschild
+099,No Guard,Schildlos
+100,Stall,Zeitspiel
+101,Technician,Techniker
+102,Leaf Guard,Floraschild
+103,Klutz,Tollpatsch
+104,Mold Breaker,Überbrückung
+105,Super Luck,Glückspilz
+106,Aftermath,Finalschlag
+107,Anticipation,Vorahnung
+108,Forewarn,Vorwarnung
+109,Unaware,Unkenntnis
+110,Tinted Lens,Aufwertung
+111,Filter,Filter
+112,Slow Start,Saumselig
+113,Scrappy,Rauflust
+114,Storm Drain,Sturmsog
+115,Ice Body,Eishaut
+116,Solid Rock,Felskern
+117,Snow Warning,Hagelalarm
+118,Honey Gather,Honigmaul
+119,Frisk,Schnüffler
+120,Reckless,Achtlos
+121,Multitype,Variabilität
+122,Flower Gift,Pflanzengabe
+123,Bad Dreams,Alptraum
+124,Pickpocket,Langfinger
+125,Sheer Force,Rohe Gewalt
+126,Contrary,Umkehrung
+127,Unnerve,Anspannung
+128,Defiant,Siegeswille
+129,Defeatist,Schwächling
+130,Cursed Body,Tastfluch
+131,Healer,Heilherz
+132,Friend Guard,Freundeshut
+133,Weak Armor,Bruchrüstung
+134,Heavy Metal,Schwermetall
+135,Light Metal,Leichtmetall
+136,Multiscale,Multischuppe
+137,Toxic Boost,Giftwahn
+138,Flare Boost,Hitzewahn
+139,Harvest,Reiche Ernte
+140,Telepathy,Telepathie
+141,Moody,Gefühlswippe
+142,Overcoat,Partikelschutz
+143,Poison Touch,Giftgriff
+144,Regenerator,Belebekraft
+145,Big Pecks,Brustbieter
+146,Sand Rush,Sandscharrer
+147,Wonder Skin,Wunderhaut
+148,Analytic,Analyse
+149,Illusion,Trugbild
+150,Imposter,Doppelgänger
+151,Infiltrator,Schwebedurch
+152,Mummy,Mumie
+153,Moxie,Hochmut
+154,Justified,Redlichkeit
+155,Rattled,Hasenfuß
+156,Magic Bounce,Magiespiegel
+157,Sap Sipper,Vegetarier
+158,Prankster,Strolch
+159,Sand Force,Sandgewalt
+160,Iron Barbs,Eisenstachel
+161,Zen Mode,Trance-Modus
+162,Victory Star,Triumphstern
+163,Turboblaze,Turbobrand
+164,Teravolt,Teravolt
+165,Aroma Veil,Dufthülle
+166,Flower Veil,Blütenhülle
+167,Cheek Pouch,Backentaschen
+168,Protean,Wandlungskunst
+169,Fur Coat,Fellkleid
+170,Magician,Zauberer
+171,Bulletproof,Kugelsicher
+172,Competitive,Unbeugsamkeit
+173,Strong Jaw,Titankiefer
+174,Refrigerate,Frostschicht
+175,Sweet Veil,Zuckerhülle
+176,Stance Change,Taktikwechsel
+177,Gale Wings,Orkanschwingen
+178,Mega Launcher,Megawumme
+179,Grass Pelt,Pflanzenpelz
+180,Symbiosis,Nutznießer
+181,Tough Claws,Krallenwucht
+182,Pixilate,Feenschicht
+183,Gooey,Viskosität
+184,Aerilate,Zenithaut
+185,Parental Bond,Familienbande
+186,Dark Aura,Dunkelaura
+187,Fairy Aura,Feenaura
+188,Aura Break,Aura-Umkehr
+189,Primordial Sea,Urmeer
+190,Desolate Land,Endland
+191,Delta Stream,Delta-Wind
+192,Stamina,Zähigkeit
+193,Wimp Out,Reißaus
+194,Emergency Exit,Rückzug
+195,Water Compaction,Verklumpen
+196,Merciless,Quälerei
+197,Shields Down,Limitschild
+198,Stakeout,Beschattung
+199,Water Bubble,Wasserblase
+200,Steelworker,Stahlprofi
+201,Berserk,Wutausbruch
+202,Slush Rush,Schneescharrer
+203,Long Reach,Langstrecke
+204,Liquid Voice,Plätscherstimme
+205,Triage,Heilwandel
+206,Galvanize,Elektrohaut
+207,Surge Surfer,Surf-Schweif
+208,Schooling,Fischschwarm
+209,Disguise,Kostümspuk
+210,Battle Bond,Freundschaftsakt
+211,Power Construct,Scharwandel
+212,Corrosion,Korrosion
+213,Comatose,Dauerschlaf
+214,Queenly Majesty,Majestät
+215,Innards Out,Magenkrempler
+216,Dancer,Tänzer
+217,Battery,Batterie
+218,Fluffy,Flauschigkeit
+219,Dazzling,Buntkörper
+220,Soul-Heart,Seelenherz
+221,Tangling Hair,Lockenkopf
+222,Receiver,Receiver
+223,Power of Alchemy,Chemiekraft
+224,Beast Boost,Bestien-Boost
+225,RKS System,Alpha-System
+226,Electric Surge,Elektro-Erzeuger
+227,Psychic Surge,Psycho-Erzeuger
+228,Misty Surge,Nebel-Erzeuger
+229,Grassy Surge,Gras-Erzeuger
+230,Full Metal Body,Metallprotektor
+231,Shadow Shield,Phantomschutz
+232,Prism Armor,Prismarüstung
+233,Neuroforce,Zerebralmacht
+234,Intrepid Sword,Kühnes Schwert
+235,Dauntless Shield,Wackerer Schild
+236,Libero,Libero
+237,Ball Fetch,Apport
+238,Cotton Down,Wollflaum
+239,Propeller Tail,Schraubflosse
+240,Mirror Armor,Spiegelrüstung
+241,Gulp Missile,Würggeschoss
+242,Stalwart,Stahlrückgrat
+243,Steam Engine,Dampfantrieb
+244,Punk Rock,Punk Rock
+245,Sand Spit,Sandspeier
+246,Ice Scales,Eisflügelstaub
+247,Ripen,Heranreifen
+248,Ice Face,Tiefkühlkopf
+249,Power Spot,Kraftquelle
+250,Mimicry,Mimese
+251,Screen Cleaner,Hemmungslos
+252,Steely Spirit,Stählerner Wille
+253,Perish Body,Unheilskörper
+254,Wandering Spirit,Rastlose Seele
+255,Gorilla Tactics,Affenfokus
+256,Neutralizing Gas,Reaktionsgas
+257,Pastel Veil,Pastellhülle
+258,Hunger Switch,Heißhunger

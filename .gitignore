@@ -51,3 +51,14 @@ P-Emerald_2/arm9/build
 *.stackdump
 *.dsm
 *desmume*
+
+
+csvjoin
+pkmnicon2rsd
+pkmnsprite2raw
+png2raw
+raw2png
+sprite2raw
+imgbin2raw
+npl2rsd
+

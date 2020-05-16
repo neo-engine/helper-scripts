@@ -18,3 +18,29 @@ item1%,item5%,item10%,item100%
 pkmndata (data constant for each form of a pkmn)
 
 #id,exp group,egg cycles,catch rate,base happiness,forme_cnt
+
+
+learn set: 200: TM/HM; 201: Tutor; 202: Egg
+
+movedata
+
+"num","accuracy","basePower","damage","category","defensiveCategory","id","pp","priority","weather",
+"flags","terrain","pseudoWeather","selfBoosts","slotCondition","heal","sideCondition","status",
+"recoil","volatileStatus","pressureTarget","boosts","secondary chance","secondary selfBoosts",
+"secondary boosts","secondary volatileStatus","secondary status","multihit","critRatio","drain",
+"target","type","contestType"
+
+
+// ae \xe4
+// e´ \xe9
+// oe \xf6
+// ue \xfc
+
+// AE \xc4
+// E´ \xc9
+// OE \xd6
+// UE \xdc
+// ss \xdf
+// { (male)
+// } (female)
+

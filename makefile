@@ -24,9 +24,6 @@ pkmnsprite2raw: $(OBJECTS) pkmnsprite2raw.o
 pkmnicon2rsd: $(OBJECTS) pkmnicon2rsd.o
 	$(CC) $(LDFLAGS) pkmnicon2rsd.o $(OBJECTS) -o $@
 
-pkmndata: $(OBJECTS) pkmndata.o
-	$(CC) $(LDFLAGS) pkmndata.o $(OBJECTS) -o $@
-
 raw2png: $(OBJECTS) raw2png.o
 	$(CC) $(LDFLAGS) raw2png.o $(OBJECTS) -o $@
 
