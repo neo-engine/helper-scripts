@@ -4,7 +4,7 @@ CPPFLAGS=-c -std=c++17 -Wall -DNUM_LANGUAGES=2 -DMAX_ITEMS_PER_DIR=30 -g3 -ggdb
 SOURCES=bitmap.cpp fsdata.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 
-all: png2raw raw2png npl2rsd clean
+all: normalizepkmnicon ampal2p2l csvjoin csvjoin2 png2raw 128x32raw plat2raw sprite2raw pkmnsprite2raw pkmnicon2rsd raw2png raw2sprite
 
 normalizepkmnicon: $(OBJECTS) normalizepkmnicon.o
 	$(CC) $(LDFLAGS) normalizepkmnicon.o $(OBJECTS) -o $@
@@ -41,9 +41,6 @@ raw2png: $(OBJECTS) raw2png.o
 
 raw2sprite: $(OBJECTS) raw2sprite.o
 	$(CC) $(LDFLAGS) raw2sprite.o $(OBJECTS) -o $@
-
-npl2rsd: npl2rsd.o
-	$(CC) npl2rsd.o -o $@
 
 .cpp.o:
 	$(CC) $(CPPFLAGS) $< -o $@
