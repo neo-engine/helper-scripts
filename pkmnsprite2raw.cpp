@@ -1,5 +1,5 @@
 // Converts a pkmn sprite to a rsd file.
-// Arguments: ###*.png, where ### is the id of the corresponding sprite
+// Arguments: ###[.*].png, where ### is the id of the corresponding sprite
 // HEIGHT, WIDTH, NUM_FRAMES (if > 0, generates *rsd), THERSHOLD, MAX_ITEMS_PER_DIR
 //
 // Outputs the file into folder (###)/30 (padded with zeros to a 2 character name) if ###

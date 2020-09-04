@@ -1,13 +1,3 @@
-// Converts a sprite to a rsd file
-// Arguments: icon###*.png, where ### is the id of the corresponding sprite
-// HEIGHT, WIDTH, NUM_FRAMES (if > 0, generates *rsd), THERSHOLD, MAX_ITEMS_PER_DIR
-//
-// Outputs the file into folder (###)/30 (padded with zeros to a 2 character name) if ###
-// exists; otherwise outputs to working dir
-//
-// The sprite may not contain more than 16 colors. The program automatically combines
-// similar colors and will do so very aggressively to enforce this color limit.
-
 %:include <cstdio>
 %:include <vector>
 %:include <string>
