@@ -34,8 +34,9 @@ struct pixel{
   u8 m_red;	///< R value
   u8 m_green;	///< G value
   u8 m_blue;	///< B value
-  pixel( u8 p_red, u8 p_green, u8 p_blue )
-    : m_red( p_red ), m_green( p_green ), m_blue( p_blue ) { }
+  u8 m_transparent;	///< pixel is transparent
+  pixel( u8 p_red, u8 p_green, u8 p_blue, u8 p_transparent = 0 )
+    : m_red( p_red ), m_green( p_green ), m_blue( p_blue ), m_transparent( p_transparent ) { }
 };
 
 #define SCALE( x, mx ) ( ( ( x ) < 0 ) ? 0 : ( ( int )( 256.0*( ( double )( x )/( double )( mx ) ) ) ) )

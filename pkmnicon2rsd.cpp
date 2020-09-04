@@ -73,7 +73,7 @@ int main( int p_argc, char** p_argv ) {
 
     bitmap in( p_argv[ 1 ] );
 
-    u8 NUM_FRAMES = 1, HEIGHT = 64, WIDTH = 64, THRESHOLD = 10, MAX_ITEMS_PER_DIR = 30;
+    u8 NUM_FRAMES = 1, HEIGHT = 64, WIDTH = 64, THRESHOLD = 10;
     if( p_argc >= 3 ) {
         sscanf( p_argv[ 2 ], "%hhu", &HEIGHT );
     }
@@ -85,9 +85,6 @@ int main( int p_argc, char** p_argv ) {
     }
     if( p_argc >= 6 ) {
         sscanf( p_argv[ 5 ], "%hhu", &THRESHOLD );
-    }
-    if( p_argc >= 7 ) {
-        sscanf( p_argv[ 6 ], "%hhu", &MAX_ITEMS_PER_DIR );
     }
 
     u8 col = 0;

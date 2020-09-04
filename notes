@@ -12,7 +12,7 @@ pkmndescr (data that changes with forms):
 hp base,atk base,def base, satk base,sdef base, spd base,
 exp yield,gender ratio,size,weight,color,shape,
 hp ev,atk ev,def ev,satk ev,sdef ev,spd ev,
-item1%,item5%,item10%,item100%
+item1%,item5%,item50%,item100%
 
 
 pkmndata (data constant for each form of a pkmn)
@@ -44,3 +44,60 @@ movedata
 // { (male)
 // } (female)
 
+obtainable tm
+10 - mystical leaf (petalburg woods; cut)
+16 - screech (metaflor tonneru)
+22 - rock slide (route 103; bike)
+48 - rock tomb (roxanne)
+50 - bullet seed (dude on route 104)
+63 - drain punch (rustboro city)
+
+
+Flags
+
+3: obtained dex
+6: heard explanation what fieldwork is
+8: first look into the player's house at game start
+11: player met rival's mom
+12: met rival
+13: Rival shall disappear from home to Route 103
+14: player met rival
+16: little girl told player her worries about prof birch
+17: obtained pkmn
+18: oldale town pokemart dude awarded potion
+19: item route 103
+20: item route 103
+21: battle vs rival of route 103
+22: mama-san karano saraba
+23: item Route 102 (potion)
+24: wally's intro/catching tut started
+25-26: wally's intro/catching tut completed
+27: Wally has a shiny Ralts
+28: Scott had their way with the player in petalburg
+29: talked to wally's dad
+30-32: 104/south: item
+33-34: Petalburg Woods: item
+35: Team A encounter in Petalburg Woods
+36: Player battled Team A grunt
+37: Player battled and lost to team A grunt
+38: Team A encounter in PW
+39: Item upper PW
+40: TM50 bullet seed obtained
+41-42: item route 104 n
+43: old lady route 104
+44: itm rustboro
+45: wailmer pail
+46: player told woman from ppfs their name
+47: obtaining a berry in ppfs
+48-49 item rustboro
+50: obtained old sea map
+51: route 116 item
+52: talked to scott at Trainer's school
+53: Quick claw
+54: obtained cut
+55: obtained stone badge/defeated roxanne
+56: battled rival before rustboro gym
+57: item metaflor tonneru
+58: item r116
+59: miracle seed
+60-61: item in pw

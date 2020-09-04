@@ -38,31 +38,15 @@ void print_tiled( FILE* p_f, u8* p_image_data ) {
     for( size_t y = 0; y < 64; y += 8 ) {
         for( size_t x = 0; x < 32; x += 4 ) {
             for( size_t by = 0; by < 8; ++by ) {
-                fwrite( p_image_data + ( y + by ) * 48 + x, 1, 4, p_f );
+                fwrite( p_image_data + ( y + by ) * 64 + x, 1, 4, p_f );
             }
         }
     }
-    // 64x32 chunk
+    // 64x64 chunk
     for( size_t y = 0; y < 64; y += 8 ) {
-        for( size_t x = 32; x < 48; x += 4 ) {
+        for( size_t x = 32; x < 64; x += 4 ) {
             for( size_t by = 0; by < 8; ++by ) {
-                fwrite( p_image_data + ( y + by ) * 48 + x, 1, 4, p_f );
-            }
-        }
-    }
-    // 32x64 chunk
-    for( size_t y = 64; y < 96; y += 8 ) {
-        for( size_t x = 0; x < 32; x += 4 ) {
-            for( size_t by = 0; by < 8; ++by ) {
-                fwrite( p_image_data + ( y + by ) * 48 + x, 1, 4, p_f );
-            }
-        }
-    }
-    // 32x32 chunc
-    for( size_t y = 64; y < 96; y += 8 ) {
-        for( size_t x = 32; x < 48; x += 4 ) {
-            for( size_t by = 0; by < 8; ++by ) {
-                fwrite( p_image_data + ( y + by ) * 48 + x, 1, 4, p_f );
+                fwrite( p_image_data + ( y + by ) * 64 + x, 1, 4, p_f );
             }
         }
     }
@@ -80,29 +64,19 @@ int main( int p_argc, char** p_argv ) {
         printf( "Too few arguments.\n" );
         return 1;
     }
+
     int start = 0;
 
     bitmap in( p_argv[ 1 ] );
 
-    u8 NUM_FRAMES = 0, HEIGHT = 96, WIDTH = 96, THRESHOLD = 10;
+    u8 NUM_FRAMES = 1, HEIGHT = 64, WIDTH = 128, THRESHOLD = 10;
     if( p_argc >= 3 ) {
-        sscanf( p_argv[ 2 ], "%hhu", &NUM_FRAMES );
-    }
-    if( p_argc >= 4 ) {
-        sscanf( p_argv[ 3 ], "%hhu", &THRESHOLD );
+        sscanf( p_argv[ 2 ], "%hhu", &THRESHOLD );
     }
 
     u8 col = !!in( 0, 0 ).m_transparent;
-    bool genraw = false;
-
-    if( !NUM_FRAMES ) {
-        genraw = ( NUM_FRAMES = 1 );
-    }
-
+    bool genraw = true;
     size_t SCALE = 1;
-    if( in.m_width == 192 && in.m_height == 192 ) {
-        SCALE = 2;
-    }
 
     palidx[ 0 ] = 0;
     for( size_t frame = 0; frame < NUM_FRAMES; ++frame )
@@ -165,6 +139,13 @@ int main( int p_argc, char** p_argv ) {
 
     size_t numTiles = HEIGHT * WIDTH * NUM_FRAMES, numColors = 16;
 
+    for( size_t x = 0; x < numTiles; ++x ) {
+        printf( "\x1b[48;2;%u;%u;%um%3hx\x1b[0;00m", red( pal[ image_data[ x ] ] ),
+                blue( pal[ image_data[ x ] ] ), green( pal[ image_data[ x ] ] ), image_data[ x ] );
+        if( ( x & 127 ) == 127 )
+            printf( "\n" );
+    }
+
     // As we are dealing with sprites here, two neighboring pixels share a single byte.
     for( size_t i = 0; i < numTiles / 2; ++i ) {
         image_data[ i ] = ( image_data[ 2 * i + 1 ] << 4 ) | image_data[ 2 * i ];
@@ -176,40 +157,14 @@ int main( int p_argc, char** p_argv ) {
     rspth.pop_back( );
     rspth.pop_back( );
 
-    unsigned short pkmnidx;
     FILE* fout;
-    if( !sscanf( p_argv[ 1 ], "%03hu", &pkmnidx ) ) {
-        // Output to cwd
-        fout = fopen( ( rspth + ( genraw ? ".raw" : ".rsd" ) ).c_str( ), "wb" );
-    } else {
-        char buffer[ 50 ];
-        snprintf( buffer, 40, "%02hhu/%hu/", pkmnidx / MAX_ITEMS_PER_DIR, pkmnidx );
-        fs::create_directories( buffer );
-        fout = fopen( ( buffer + rspth + ( genraw ? ".raw" : ".rsd" ) ).c_str( ), "wb" );
-    }
-
-    u8 meta[3] = { NUM_FRAMES, WIDTH, HEIGHT };
+    fout = fopen( ( rspth + ( genraw ? ".raw" : ".rsd" ) ).c_str( ), "wb" );
 
     fwrite( pal, sizeof(unsigned short int), numColors, fout );
-    if( !genraw ) {
-        fwrite( meta, sizeof(u8), 3, fout );
-    }
-
     for( size_t fr = 0; fr < NUM_FRAMES; ++fr )
         print_tiled( fout, image_data + fr * 16 * 32 );
 
+
     fclose( fout );
 
-    /*
-    // DEBUG: Print icon on terminal
-    for( size_t x = 0; x < numTiles; ++x ) {
-        printf( "\x1b[48;2;%u;%u;%um%3hx\x1b[0;00m", red( pal[ image_data[ x ] ] ),
-                blue( pal[ image_data[ x ] ] ), green( pal[ image_data[ x ] ] ), image_data[ x ] );
-        if( ( x & 15 ) == 15 )
-            printf( "\n" );
-
-        if( x == numTiles / 2 - 1 )
-            printf( "\n" );
-    }
-    */
 }

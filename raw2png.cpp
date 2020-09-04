@@ -12,7 +12,7 @@
 %:include "bitmap.h"
 using namespace std;
 
-unsigned data[ 12300 ] = { 0 };
+unsigned DATA[ 12300 ] = { 0 };
 unsigned short pal[ 300 ] = { 0 };
 
 int main( int p_argc, char** p_argv ) {
@@ -29,7 +29,7 @@ int main( int p_argc, char** p_argv ) {
     int numTiles, numColors;
     sscanf( p_argv[ 2 ], "%d", &numTiles );
     sscanf( p_argv[ 3 ], "%d", &numColors );
-    fread( data, sizeof(unsigned), numTiles, in );
+    fread( DATA, sizeof(unsigned), numTiles, in );
     fread( pal, sizeof(unsigned short int), numColors, in );
 
     size_t wd, hg;
@@ -60,7 +60,7 @@ int main( int p_argc, char** p_argv ) {
     }
 
 
-    u8* ptr = reinterpret_cast<u8*>( data );
+    u8* ptr = reinterpret_cast<u8*>( DATA );
     bitmap result( wd, hg );
     for( int i = 0; i < 4 * numTiles; ++i ) {
         auto currCol = pal[ ptr[ i ] ];

@@ -125,9 +125,9 @@ bitmap::bitmap( const char* p_path ) {
         for( size_t x = 0; x < m_width; x++ ) {
             png_bytep px = &( row[ x * 4 ] );
             if( px[ 3 ] )
-                m_pixels[ x ][ y ] = { px[ 0 ], px[ 1 ], px[ 2 ] };
+                m_pixels[ x ][ y ] = { px[ 0 ], px[ 1 ], px[ 2 ], 0 };
             else
-                m_pixels[ x ][ y ] = { 0, 0, 0 };
+                m_pixels[ x ][ y ] = { 0, 0, 0, 1 };
         }
     }
 }
