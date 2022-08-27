@@ -44,14 +44,103 @@ movedata
 // { (male)
 // } (female)
 
+Side Quests
+
+
+rustboro:
+√ endangered wailmer
+    girl noticing that a wilmer got washed ashore, needs help
+    requires: collected mystic seed in petalburg woods
+    mokuhyou: defeat/capture wailmer
+    reward: mystic water
+- find me a granite stone
+    two little childs arguing why granite cave is called granite cave
+    Requires: Having handed over letter to steven / collected TM False Swipe
+    mokuhyou: hand over granite stone
+    Reward: granite stone, heart scale
+√ rare pkmn sighting
+    dude informing the player that he saw a group of munna in petalburg woods at night
+    Requires: badge2
+    mokuhyou: capture/defeat munna in petalburg woods
+    reward: moon stone
+Dewford:
+√ attacked by scary pkmn
+    Hiker exploring cave, got attacked by a group ob sableye, lost Sparkling Stone
+    mokuhyou: defeat/catch sableye x3, collect Sparkling Stone
+    Reward: Dawn Stone
+- attacked by scary pkmn II
+    Hiker wanted to explore different part, got attacked again by a group of aron/lairon
+    Requires: Completed "attacked by scary pkmn", badge 2
+    mokuhyou: defeat/capture aron x3, lairon x1
+    Reward: Dusk Stone
+
 obtainable tm
+01 - mega kick (r115, surf, mach bike)
+02 - mega punch (r 111, rock climb, mach bike)
+04 - ice punch (crystal cavern, rock climb)
 10 - mystical leaf (petalburg woods; cut)
+15 - False swipe (granite cave or r119)
 16 - screech (metaflor tonneru)
+21 - dewford town (dude in info center)
 22 - rock slide (route 103; bike)
+23 - thief (cut)
+25 - protect (from mr stone)
+30 - Steel Wing (r113, if not obtained in granite cave)
+32 - Sandstorm (desert)
+36 - Toxic (fiery path, strength)
+39 - Facade (r113, hidden)
+43 - Brick Break (meteor falls, surf, waterfall)
+47 - bulk up (brawly)
 48 - rock tomb (roxanne)
 50 - bullet seed (dude on route 104)
+51 - Icicle Spear (crystal cavern, rock climb)
+52 - Bounce (r135, rock climb)
+54 - rock blast (r 103, cut, rock climb)
+55 - brine (hidden lake, surf, rock climb, strength, rock smash)
+56 - U-turn (r115, rock smash, strength)
+57 - Payback (granite cave)
 63 - drain punch (rustboro city)
+69 - dragon claw (Meteor Falls, surf, waterfall)
+78 - acrobatics (meteor falls, waterfall)
+87 - draining kiss (r 108)
+88 - grassy terrain (verdanturf, rock climb)
+92 - Mystical Fire (fiery path, strength, rock climb)
+95 - flash (granite cave)
 
+[478] right
+[477] down
+[476] up
+[475] left
+
+Vars
+
+0: init pkmn choice
+1: num fainted
+2: slateport battle tent streak
+3: unused battle tent streak
+4: unused battle tent streak
+5-9: reserved
+10: red shards donated in crystal cavern
+11: blue shards donated in crystal cavern
+12: yellow shards donated in crystal cavern
+13: green shards donated in crystal cavern
+20: battle factory streak (lv 50)
+21: battle factory streak (lv 100)
+22: unused battle facility streak (lv 50)
+23: unused battle facility streak (lv 100)
+24: unused battle facility streak (lv 50)
+25: unused battle facility streak (lv 100)
+26: unused battle facility streak (lv 50)
+27: unused battle facility streak (lv 100)
+28: unused battle facility streak (lv 50)
+29: unused battle facility streak (lv 100)
+30: unused battle facility streak (lv 50)
+31: unused battle facility streak (lv 100)
+32: unused battle facility streak (lv 50)
+33: unused battle facility streak (lv 100)
+34: unused battle facility streak (lv 50, double)
+35: unused battle facility streak (lv 100, double)
+36: shoal cave, playtime (hours) at last reset
 
 Flags
 
@@ -78,8 +167,8 @@ Flags
 30-32: 104/south: item
 33-34: Petalburg Woods: item
 35: Team A encounter in Petalburg Woods
-36: Player battled Team A grunt
-37: Player battled and lost to team A grunt
+**36: Player battled Team A grunt
+**37: Player battled and lost to team A grunt
 38: Team A encounter in PW
 39: Item upper PW
 40: TM50 bullet seed obtained
@@ -101,3 +190,106 @@ Flags
 58: item r116
 59: miracle seed
 60-61: item in pw
+62-65: item in fiery path
+66-71: item in granite cave
+72-74: item petalburg
+75: item r105
+76-80: item r106
+81-82: item r 108
+83-88: item r109
+89-94: item r110
+95-96: item r103(east)
+97-99: item (mauville)
+100-102: item (r117)
+103: item (r116)
+104: item (verdanturf)
+105-114: item (r111)
+115: item (r112)
+116-120: item (r113)
+121-124: item r114
+125-127: item (meteor falls)
+128-129: item (hidden lake)
+130-134: item r115
+135: Unlocked sealed chamber second cave
+136: Unlocked island cave, desert ruins and ancient tomb
+137: Unlocked island cave hidden chamber
+138: Battled Regice
+139: Unlocked desert ruins hidden chamber
+140: Battled Regirock
+141: Unlocked ancient tomb hidden chamber
+142: Battled Registeel
+143: Unlocked rock shelter and forest grotto
+144: Unlocked rock shelter hidden chamber
+145: Battled Regieleki
+146: Unlocked forest grotto hidden chamber
+147: Battled Regidrago
+148: Regigigas unlocked
+149: Regigigas battled
+150: obtained knuckle badge/defeated brawly
+151: Obtained Rod from Dewford Town
+152: silk scarf obtained in dewford
+153: tm21 rest obtained in dewford
+154: tm95 flash obtained (granite cave)
+155: premier ball in rustboro in se buil 2f
+156: player has seen aqua grunt run out of devon
+157: player has seen rant by devon dude
+158: player talked to peeko dude
+**159: player battled aqua guy in rusturf tunnel
+**160: player lost in rusturf tunnel
+161: aqua dude disappeared from rusturf tunnel
+162: aqua grunt grunted at player
+163: devon dude got his goods back
+164: player talked to mr. stone
+165: player got TM protect
+**166: player did not want to deliver goods
+167: intro of mr brine on r104
+168: mr. brine is not in dewford
+169: mr. brine is not at r104
+170: letter to steven not yet delivered
+171: found tm in granite cave
+172: handed over letter
+173: rescue wailmer: battled wailmer
+174: rescue wailmer: reward collected
+175: munna unlocked
+176: munna battled
+177: moonstone obtained
+178: munna visible
+179: quest scary pkmn started / sprakling stone, sableyes visible
+180: first sableye defeated
+181: second sableye defeaed
+182: sparkling stone collected
+183: quest complete
+184-188: item meteor falls
+189: Larvesta in fiery den
+++190: Hoenn day care has an egg
+++191: (?) day care has an egg
+++192: (?) day care has an egg
+193: entered ocean museum, fee not yet payed
+++194: slateport battle tent, streak ongoing.
+195: item crystal cavern
+196-199: item r137
+200-202: item r135
+203-214: item crystal cavern
+**215: jirachi caught
+216: crystal cavern: red crystal activated
+217: crystal cavern: blue crystal activated
+218: crystal cavern: yellow crystal activated
+219: crystal cavern: green crystal activated
+220: Jirachi battled
+++221: battle factory lv 50 streak ongoing
+++222: battle factory lv 100 streak ongoing
+223: shoal salt 1 collected
+224: shoal salt 2 collected
+225: shoal salt 3 collected
+226: shoal salt 4 collected
+227: shoal shell 1 collected
+228: shoal shell 2 collected
+229: shoal shell 3 collected
+230: shoal shell 4 collected
+231: r118 heart scale
+232: r118 iron
+232: r137 dusk stone
+233: r105 item
+234: r105 item
+235: r106 item
+236-238: gcave item

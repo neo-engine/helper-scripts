@@ -68,9 +68,9 @@ int main( int p_argc, char** p_argv ) {
     if( p_argc >= 6 ) { sscanf( p_argv[ 5 ], "%hu", &THRESHOLD ); }
     if( p_argc >= 7 ) {
         sscanf( p_argv[ 6 ], "%hx", &TRANSPARENT_COLOR );
-        palidx[ TRANSPARENT_COLOR ] = 0;
+        palidx[ TRANSPARENT_COLOR ]               = 0;
         palidx[ TRANSPARENT_COLOR | ( 1 << 15 ) ] = 0;
-        pal[ 0 ]                    = 0;
+        pal[ 0 ]                                  = 0;
         start++;
         fprintf( stderr, "[%s] Using transparent color \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m\n",
                  p_argv[ 1 ], red( TRANSPARENT_COLOR ), blue( TRANSPARENT_COLOR ),
@@ -82,10 +82,10 @@ int main( int p_argc, char** p_argv ) {
             unsigned short color;
             sscanf( p_argv[ 6 + i ], "%hx", &color );
             palidx[ color | ( 1 << 15 ) ] = i;
-            pal[ i ]        = color | ( 1 << 15 );
+            pal[ i ]                      = color | ( 1 << 15 );
             start++;
             fprintf( stderr, "[%s] Using color %hhu: \x1b[48;2;%u;%u;%um%3hx\x1b[0;00m\n",
-                     p_argv[ 1 ], i, red( color ), blue( color ), green( color ), color &0x7fff );
+                     p_argv[ 1 ], i, red( color ), blue( color ), green( color ), color & 0x7fff );
         }
     }
 
@@ -97,6 +97,15 @@ int main( int p_argc, char** p_argv ) {
     if( in.m_width == 2 * WIDTH && in.m_height == 2 * HEIGHT ) {
         SCALE = 2;
         fprintf( stderr, "[%s]: Scaling down too large image.\n", p_argv[ 1 ] );
+    }
+    bool nopal = false;
+    if( !WIDTH ) {
+        WIDTH = in.m_width;
+        nopal = true;
+    }
+    if( !HEIGHT ) {
+        HEIGHT = in.m_width;
+        nopal  = true;
     }
 
     size_t numTiles = HEIGHT * WIDTH * NUM_FRAMES, numColors = 16;
@@ -214,6 +223,6 @@ int main( int p_argc, char** p_argv ) {
     for( size_t fr = 0; fr < NUM_FRAMES; ++fr )
         print_tiled( fout, image_data + ( fr * WIDTH * HEIGHT / 2 ), WIDTH / 2, HEIGHT );
 
-    if( genraw ) { fwrite( pal, sizeof( unsigned short int ), numColors, fout ); }
+    if( genraw && !nopal ) { fwrite( pal, sizeof( unsigned short int ), numColors, fout ); }
     fclose( fout );
 }
