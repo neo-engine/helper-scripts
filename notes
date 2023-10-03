@@ -87,9 +87,14 @@ obtainable tm
 25 - protect (from mr stone)
 30 - Steel Wing (r113, if not obtained in granite cave)
 32 - Sandstorm (desert)
+33 - Rain Dance (r121, rock climb)
+35 - Hail (shoal cave, strength)
 36 - Toxic (fiery path, strength)
 39 - Facade (r113, hidden)
 43 - Brick Break (meteor falls, surf, waterfall)
+44 - imprison (r124, dive)
+45 - pluck (safari zone)
+46 - weather ball (r119 surf)
 47 - bulk up (brawly)
 48 - rock tomb (roxanne)
 50 - bullet seed (dude on route 104)
@@ -100,12 +105,30 @@ obtainable tm
 56 - U-turn (r115, rock smash, strength)
 57 - Payback (granite cave)
 63 - drain punch (rustboro city)
+66 - thunder fang (safari zone)
 69 - dragon claw (Meteor Falls, surf, waterfall)
+75 - Low Sweep (r127, dive)
 78 - acrobatics (meteor falls, waterfall)
 87 - draining kiss (r 108)
 88 - grassy terrain (verdanturf, rock climb)
+89 - misty terrain (r123)
 92 - Mystical Fire (fiery path, strength, rock climb)
 95 - flash (granite cave)
+
+obtainable tr
+
+01 - body slam (slateport, $5000)
+02 - (slateport, $50000)
+05 - (slateport, $50000)
+08 - (slateport, $50000)
+10 - (slateport, $50000)
+11 - (slateport, $50000)
+16 - swords dance (slateport, $9000)
+17 - amnesia (slateport, $9000)
+32 - crunch (slateport, $12000)
+58 - (slateport, $50000)
+84 - scald (slateport, $12000)
+92 - dazzling gleam (slateport, $18000)
 
 [478] right
 [477] down
@@ -293,3 +316,18 @@ Flags
 234: r105 item
 235: r106 item
 236-238: gcave item
+239-247: r120 items
+248-253: r121 items
+254-257: lilycove item
+258-259: r124
+260: r125
+261-263: shoal cave item
+264-266: r127
+267-269: r128
+270-275: safari zone
+276-282: r132/r133/r134 item
+283-294: r119
+295: r118
+296-300: r123
+301: cliffelta item
+302-319: underwater item
