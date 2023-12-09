@@ -1,6 +1,6 @@
 CC=g++
-LDFLAGS=-lpng
-CPPFLAGS=-c -std=c++20 -Wall -DNUM_LANGUAGES=2 -DMAX_ITEMS_PER_DIR=30 -g3 -ggdb
+LDFLAGS= -L /opt/homebrew/lib/ -lpng
+CPPFLAGS=-c -std=c++20 -I/opt/homebrew/include/ -Wall -DNUM_LANGUAGES=2 -DMAX_ITEMS_PER_DIR=30 -g3 -ggdb
 SOURCES=bitmap.cpp fsdata.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 
