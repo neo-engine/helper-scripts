@@ -4,7 +4,7 @@ CPPFLAGS=-c -std=c++20 -I/opt/homebrew/include/ -Wall -DNUM_LANGUAGES=2 -DMAX_IT
 SOURCES=bitmap.cpp fsdata.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 
-all: normalizepkmnicon ampal2p2l csvjoin csvjoin2 png2raw 128x32raw plat2raw sprite2raw pkmnsprite2raw pkmnicon2rsd raw2png raw2sprite typeicon2raw maprender am95mapto92map pkmnowsprite2rsd
+all: normalizepkmnicon ampal2p2l csvjoin csvjoin2 png2raw 128x32raw plat2raw sprite2raw pkmnsprite2raw pkmnicon2rsd raw2png raw2sprite rsd2sprite typeicon2raw maprender am95mapto92map pkmnowsprite2rsd
 
 am95mapto92map: $(OBJECTS) am95mapto92map.o
 	$(CC) $(LDFLAGS) am95mapto92map.o $(OBJECTS) -o $@
@@ -59,6 +59,9 @@ raw2png: $(OBJECTS) raw2png.o
 
 raw2sprite: $(OBJECTS) raw2sprite.o
 	$(CC) $(LDFLAGS) raw2sprite.o $(OBJECTS) -o $@
+
+rsd2sprite: $(OBJECTS) rsd2sprite.o
+	$(CC) $(LDFLAGS) rsd2sprite.o $(OBJECTS) -o $@
 
 .cpp.o:
 	$(CC) $(CPPFLAGS) $< -o $@
